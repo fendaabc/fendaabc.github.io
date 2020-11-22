@@ -1,5 +1,5 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>基于hexo的博客搭建_win10_github | 芬达里没有泡泡</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 5.2.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">基于hexo的博客搭建_win10_github</h1><a id="logo" href="/.">芬达里没有泡泡</a><p class="description">来杯可乐,不加糖,谢谢</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">基于hexo的博客搭建_win10_github</h1><div class="post-meta">2020-11-21</div><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-node%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">1.</span> <span class="toc-text">1.node的安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-github%E7%9A%84%E6%B3%A8%E5%86%8C"><span class="toc-number">2.</span> <span class="toc-text">2.github的注册</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-win10%E7%B3%BB%E7%BB%9Fgit%E7%8E%AF%E5%A2%83%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE"><span class="toc-number">3.</span> <span class="toc-text">3.win10系统git环境的安装和配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-hexo%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">4.</span> <span class="toc-text">4.hexo的安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%B8%B8%E8%A7%84%E7%9A%84%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4"><span class="toc-number">5.</span> <span class="toc-text">5.常规的操作步骤</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E7%AC%AC%E4%B8%89%E6%96%B9%E4%B8%BB%E9%A2%98maupassant%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">6.</span> <span class="toc-text">6.第三方主题maupassant的安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E7%AC%AC%E4%B8%89%E6%96%B9%E4%B8%BB%E9%A2%98light%E5%AE%89%E8%A3%85"><span class="toc-number">7.</span> <span class="toc-text">6.第三方主题light安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D"><span class="toc-number">8.</span> <span class="toc-text">7.绑定个人域名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%85%B6%E4%BB%96%E7%BE%8E%E5%8C%96%E7%9B%B8%E5%85%B3"><span class="toc-number">9.</span> <span class="toc-text">8.其他美化相关</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E7%BD%91%E9%A1%B5%E5%B7%A6%E4%B8%8A%E8%A7%92%E5%B0%8Flogo%E7%9A%84%E6%B7%BB%E5%8A%A0"><span class="toc-number">9.1.</span> <span class="toc-text">1. 网页左上角小logo的添加</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AE%BE%E7%BD%AE"><span class="toc-number">9.2.</span> <span class="toc-text">2. 标签栏设置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3"><span class="toc-number">9.2.1.</span> <span class="toc-text">3.</span></a></li></ol></li></ol></li></ol></div></div><div class="post-content"><blockquote>
-<p>因为有一部分我电脑已经有了,所以部分步骤不是很完整~我主要是在自己操作过程中略微记录了一下方便后期参考.如果有问题可以参考一下<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/setup">hexo</a>网站,里面内容也比较完整</p>
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>基于hexo的博客搭建_win10_github | 芬达里没有泡泡</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 5.2.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">基于hexo的博客搭建_win10_github</h1><a id="logo" href="/.">芬达里没有泡泡</a><p class="description">来杯可乐,不加糖</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">基于hexo的博客搭建_win10_github</h1><div class="post-meta">2020-11-21<span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 2.7k</span><span class="post-meta-item-text"> 字</span></span></span><span class="post-time"> | <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i><span class="post-count"> 10</span><span class="post-meta-item-text"> 分钟</span></span></span></div><a class="disqus-comment-count" data-disqus-identifier="2020/11/21/博客搭建_hexo_github_win10/" href="/2020/11/21/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA_hexo_github_win10/#disqus_thread"></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-node%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">1.</span> <span class="toc-text">1.node的安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-github%E7%9A%84%E6%B3%A8%E5%86%8C"><span class="toc-number">2.</span> <span class="toc-text">2.github的注册</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-win10%E7%B3%BB%E7%BB%9Fgit%E7%8E%AF%E5%A2%83%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE"><span class="toc-number">3.</span> <span class="toc-text">3.win10系统git环境的安装和配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-hexo%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">4.</span> <span class="toc-text">4.hexo的安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%B8%B8%E8%A7%84%E7%9A%84%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4"><span class="toc-number">5.</span> <span class="toc-text">5.常规的操作步骤</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E7%AC%AC%E4%B8%89%E6%96%B9%E4%B8%BB%E9%A2%98maupassant%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">6.</span> <span class="toc-text">6.第三方主题maupassant的安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E7%AC%AC%E4%B8%89%E6%96%B9%E4%B8%BB%E9%A2%98light%E5%AE%89%E8%A3%85"><span class="toc-number">7.</span> <span class="toc-text">6.第三方主题light安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E7%AC%AC%E4%B8%89%E6%96%B9%E4%B8%BB%E9%A2%98next%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">8.</span> <span class="toc-text">6.第三方主题next的安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D"><span class="toc-number">9.</span> <span class="toc-text">7.绑定个人域名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%85%B6%E4%BB%96%E7%BE%8E%E5%8C%96%E7%9B%B8%E5%85%B3"><span class="toc-number">10.</span> <span class="toc-text">8.其他美化相关</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E7%BD%91%E9%A1%B5%E5%B7%A6%E4%B8%8A%E8%A7%92%E5%B0%8Flogo%E7%9A%84%E6%B7%BB%E5%8A%A0"><span class="toc-number">10.1.</span> <span class="toc-text">1. 网页左上角小logo的添加</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AE%BE%E7%BD%AE"><span class="toc-number">10.2.</span> <span class="toc-text">2. 标签栏设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-dsf"><span class="toc-number">10.3.</span> <span class="toc-text">3.dsf</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-jlk"><span class="toc-number">10.4.</span> <span class="toc-text">4.jlk</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5"><span class="toc-number">10.5.</span> <span class="toc-text">5.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6"><span class="toc-number">10.6.</span> <span class="toc-text">6.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7"><span class="toc-number">10.7.</span> <span class="toc-text">7.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8"><span class="toc-number">10.8.</span> <span class="toc-text">8.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9"><span class="toc-number">10.9.</span> <span class="toc-text">9.</span></a></li></ol></li></ol></div></div><div class="post-content"><blockquote>
+<p>因为有的内容我电脑已经有了,所以部分步骤不是很完整~我主要是在自己操作过程中略微记录了一下方便后期参考.如果有问题可以参考一下<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/setup">hexo</a>网站,里面内容也比较完整,或者email联系我也ok,如果有空也会尽量回复的………</p>
 </blockquote>
 <a id="more"></a>
 
@@ -165,6 +165,14 @@
 <li>安装<code>git clone --depth 1 https://github.com/hexojs/hexo-theme-light themes/light</code></li>
 <li></li>
 </ol>
+<h2 id="6-第三方主题next的安装"><a href="#6-第三方主题next的安装" class="headerlink" title="6.第三方主题next的安装"></a>6.第三方主题<strong>next</strong>的安装</h2><blockquote>
+<ul>
+<li><p>步骤可参见<a target="_blank" rel="noopener" href="https://github.com/next-theme/hexo-theme-next/blob/master/docs/zh-CN/README.md">github</a></p>
+</li>
+<li><p>m每个月的next更新: <code>npm update hexo-theme-next</code></p>
+</li>
+</ul>
+</blockquote>
 <h2 id="7-绑定个人域名"><a href="#7-绑定个人域名" class="headerlink" title="7.绑定个人域名"></a>7.绑定个人域名</h2><ol>
 <li><p>可以在阿里云里购买自己喜欢的<a target="_blank" rel="noopener" href="https://wanwang.aliyun.com/">域名</a></p>
 </li>
@@ -179,16 +187,45 @@
 </ol>
 </li>
 </ol>
-<h2 id="8-其他美化相关"><a href="#8-其他美化相关" class="headerlink" title="8.其他美化相关"></a>8.其他美化相关</h2><blockquote>
+<h2 id="8-其他美化相关"><a href="#8-其他美化相关" class="headerlink" title="8.其他美化相关"></a>8.其他美化相关</h2><p>大部分功能其实默认都集成好了,直接在主题配置文件中启用就行了</p>
+<blockquote>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> 网页左上角小logo</li>
-<li><input checked="" disabled="" type="checkbox"> 标签栏 例如:java  doc Android等的显示</li>
-<li><input checked="" disabled="" type="checkbox"> 谷歌搜索实现</li>
-<li><input checked="" disabled="" type="checkbox"> 本地搜索功能实现,搜索已经存在的文档</li>
-<li><input disabled="" type="checkbox"> 文档页面的美化,统一前端页面,所有的文档尽量除了标题和描述信息以外其他都不展示,避免页面混乱–</li>
-<li><input checked="" disabled="" type="checkbox"> 友情链接</li>
-<li><input checked="" disabled="" type="checkbox"> 文章初始化时候_日期时间标签等的在哪设置:<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/front-matter">https://hexo.io/zh-cn/docs/front-matter</a></li>
-<li><input disabled="" type="checkbox"> 文章代码块样式的美化:<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins">https://hexo.io/zh-cn/docs/tag-plugins</a>  </li>
+<li><input checked="" disabled="" type="checkbox"> <ol>
+<li>网页左上角小logo</li>
+</ol>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <ol start="2">
+<li>标签栏 例如:java  doc Android等的显示</li>
+</ol>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <ol start="3">
+<li><del>谷歌搜索实现</del></li>
+</ol>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <ol start="4">
+<li>本地搜索功能实现,搜索已经存在的文档</li>
+</ol>
+</li>
+<li><input disabled="" type="checkbox"> <ol start="5">
+<li>文档页面的美化,统一前端页面,所有的文档尽量除了标题和描述信息以外其他都不展示,避免页面混乱–</li>
+</ol>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <ol start="6">
+<li>友情链接</li>
+</ol>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <ol start="7">
+<li>文章初始化时候_日期时间标签等的在哪设置:<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/front-matter">https://hexo.io/zh-cn/docs/front-matter</a></li>
+</ol>
+</li>
+<li><input disabled="" type="checkbox"> <ol start="8">
+<li>文章代码块样式的美化:<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins">https://hexo.io/zh-cn/docs/tag-plugins</a>  </li>
+</ol>
+</li>
+<li><input disabled="" type="checkbox"> <ol start="9">
+<li>启用评论系统</li>
+</ol>
+</li>
 </ul>
 </blockquote>
 <h3 id="1-网页左上角小logo的添加"><a href="#1-网页左上角小logo的添加" class="headerlink" title="1. 网页左上角小logo的添加"></a>1. 网页左上角小logo的添加</h3><p>制作一个你需要的logo,命名为<code>favicon.ico</code>,放在<code>\source</code>目录下,然后重新生成以后就好了</p>
@@ -197,9 +234,54 @@
 <p>操作在Markdown文档所在目录执行,即<code>blog\source\_posts</code>目录</p>
 </blockquote>
 <ol>
-<li><h4 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h4></li>
+<li><h3 id="3-dsf"><a href="#3-dsf" class="headerlink" title="3.dsf"></a>3.dsf</h3></li>
 </ol>
-</div><div class="tags"><a href="/tags/hexo/"><i class="fa fa-tag"></i>hexo</a><a href="/tags/%E5%8D%9A%E5%AE%A2/"><i class="fa fa-tag"></i>博客</a><a href="/tags/%E6%95%99%E7%A8%8B/"><i class="fa fa-tag"></i>教程</a></div><div class="post-nav"><a class="pre" href="/2020/11/22/Toots-2020-Nov-22/">Toots_2020_Nov.22</a><a class="next" href="/2020/11/20/%E6%A9%99%E7%8B%90%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8BforMI9/">橙狐使用教程完善版</a></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 15px;">教程</a> <a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 15px;">安卓</a> <a href="/tags/%E6%A9%99%E7%8B%90/" style="font-size: 15px;">橙狐</a> <a href="/tags/md/" style="font-size: 15px;">md</a> <a href="/tags/%E5%8F%A5%E5%AD%90/" style="font-size: 15px;">句子</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2020/11/22/Toots-2020-Nov-22/">Toots_2020_Nov.22</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/21/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA_hexo_github_win10/">基于hexo的博客搭建_win10_github</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/20/%E6%A9%99%E7%8B%90%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8BforMI9/">橙狐使用教程完善版</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/19/hello-world/">Hello World</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.baidu.com/" title="百度" target="_blank">百度</a><ul></ul><a href="http://www.bing.com/" title="必应" target="_blank">必应</a><ul></ul><a href="https://www.google.com/ncr" title="Google" target="_blank">Google</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2020 <a href="/." rel="nofollow">芬达里没有泡泡.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><link rel="stylesheet" type="text/css" href="/css/search.css?v=0.0.0"><script type="text/javascript" src="/js/search.js?v=0.0.0"></script><script>var search_path = 'search.xml';
+<h3 id="4-jlk"><a href="#4-jlk" class="headerlink" title="4.jlk"></a>4.jlk</h3><h3 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h3><h3 id="6"><a href="#6" class="headerlink" title="6."></a>6.</h3><h3 id="7"><a href="#7" class="headerlink" title="7."></a>7.</h3><h3 id="8"><a href="#8" class="headerlink" title="8."></a>8.</h3><h3 id="9"><a href="#9" class="headerlink" title="9."></a>9.</h3></div><div class="tags"><a href="/tags/hexo/"><i class="fa fa-tag"></i>hexo</a><a href="/tags/%E5%8D%9A%E5%AE%A2/"><i class="fa fa-tag"></i>博客</a><a href="/tags/%E6%95%99%E7%A8%8B/"><i class="fa fa-tag"></i>教程</a></div><div class="post-nav"><a class="pre" href="/2020/11/22/Toots-2020-Nov-22/">Toots_2020_Nov.22</a><a class="next" href="/2020/11/20/%E6%A9%99%E7%8B%90%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8BforMI9/">橙狐使用教程完善版</a></div><div id="disqus_thread"><div class="btn_click_load"><button class="disqus_click_btn">阅读评论（请确保 Disqus 可以正常加载）</button></div><script type="text/javascript">var disqus_config = function () {
+    this.page.url = 'http://example.com/2020/11/21/博客搭建_hexo_github_win10/';
+    this.page.identifier = '2020/11/21/博客搭建_hexo_github_win10/';
+    this.page.title = '基于hexo的博客搭建_win10_github';
+  };</script><script type="text/javascript" id="disqus-lazy-load-script">$.ajax({
+url: 'https://disqus.com/next/config.json',
+timeout: 2500,
+type: 'GET',
+success: function(){
+  var d = document;
+  var s = d.createElement('script');
+  s.src = '//fenda.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', + new Date());
+  (d.head || d.body).appendChild(s);
+  $('.disqus_click_btn').css('display', 'none');
+},
+error: function() {
+  $('.disqus_click_btn').css('display', 'block');
+}
+});</script><script type="text/javascript" id="disqus-click-load">$('.btn_click_load').click(() => {  //click to load comments
+    (() => { // DON'T EDIT BELOW THIS LINE
+        var d = document;
+        var s = d.createElement('script');
+        s.src = '//fenda.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    $('.disqus_click_btn').css('display','none');
+});</script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://fenda.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/hexo/" style="font-size: 25px;">hexo</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 25px;">教程</a> <a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 15px;">安卓</a> <a href="/tags/%E6%A9%99%E7%8B%90/" style="font-size: 15px;">橙狐</a> <a href="/tags/md/" style="font-size: 15px;">md</a> <a href="/tags/%E5%8F%A5%E5%AD%90/" style="font-size: 15px;">句子</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2020/11/22/Toots-2020-Nov-22/">Toots_2020_Nov.22</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/21/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA_hexo_github_win10/">基于hexo的博客搭建_win10_github</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/20/%E6%A9%99%E7%8B%90%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8BforMI9/">橙狐使用教程完善版</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/19/hello-world/">Hello World</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//fenda.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.baidu.com/" title="百度" target="_blank">百度</a><ul></ul><a href="http://www.bing.com/" title="必应" target="_blank">必应</a><ul></ul><a href="https://www.google.com/ncr" title="Google" target="_blank">Google</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2020 <a href="/." rel="nofollow">芬达里没有泡泡.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><link rel="stylesheet" type="text/css" href="/css/search.css?v=0.0.0"><script type="text/javascript" src="/js/search.js?v=0.0.0"></script><script>var search_path = 'search.xml';
 if (search_path.length == 0) {
    search_path = 'search.xml';
 }
