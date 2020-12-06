@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-11-28T11:11:35.426Z</updated>
+  <updated>2020-12-06T20:30:08.698Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Toots 2020 Nov.30 - Dec.06</title>
+    <link href="http://example.com/2020/11/30/Toots-2020-Nov.30-Dec.6/"/>
+    <id>http://example.com/2020/11/30/Toots-2020-Nov.30-Dec.6/</id>
+    <published>2020-11-29T17:03:04.000Z</published>
+    <updated>2020-12-06T20:30:08.698Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Nov.30</strong></p><hr><ul><li>想给你颗糖,让你永远不用长大</li></ul><p><strong>Dec.01</strong></p><hr><ul><li>失眠、噩梦、惊醒……你来了,都不存在的</li></ul><p><strong>Dec.02</strong></p><hr><ul><li>不想离开是因为不想一个人去面对那么多未知</li></ul><p><strong>Dec.03</strong></p><hr><ul><li>只要一点勇气，你就可以自己改变生活   &lt;三傻大闹宝莱坞&gt;</li><li>“Find something bigger than yourself ”（找到那些比你自身更宏大的存在）。</li><li>一个人生命中最大的幸运， 莫过于在他的人生中途， 即在他年富力强的时候发现了自己的使命。</li></ul><p><strong>Dec.04</strong></p><hr><ul><li>给你三颗金币,你会回到你的哪一刻,过去、现在还是未来,记住,请想好了再回答.</li><li>爱情是刹那间绚烂的烟火，婚姻是一锅小火慢炖的老鸡汤！</li></ul><p><strong>Dec.05</strong></p><hr><ul><li>作为一个资深的普通人，承认自己的普通与平凡，认清自己，给自己一个准确的定位，也许他们看来是不上进，最起码自己懂</li></ul><p><strong>Dec.06</strong></p><hr><ul><li>人生轨迹的改变,往往是因为你做过的那些看似没有意义的事情</li></ul>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="句子" scheme="http://example.com/tags/%E5%8F%A5%E5%AD%90/"/>
+    
+  </entry>
   
   <entry>
     <title>程序员如何把控自己的职业</title>
