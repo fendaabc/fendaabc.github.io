@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>数据结构相关知识补充 | 芬达里没有泡泡</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 5.2.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">数据结构相关知识补充</h1><a id="logo" href="/.">芬达里没有泡泡</a><p class="description">来杯可乐,不加糖</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">数据结构相关知识补充</h1><div class="post-meta">2020-12-12<script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span><span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 233</span><span class="post-meta-item-text"> 字</span></span></span><span class="post-time"> | <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i><span class="post-count"> 1</span><span class="post-meta-item-text"> 分钟</span></span></span></div><a class="disqus-comment-count" data-disqus-identifier="2020/12/12/数据结构相关知识补充/" href="/2020/12/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/#disqus_thread"></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%88"><span class="toc-number">1.</span> <span class="toc-text">栈</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%94%E7%94%A8"><span class="toc-number">1.0.0.1.</span> <span class="toc-text">应用:</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%98%9F%E5%88%97"><span class="toc-number">2.</span> <span class="toc-text">队列</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%94%E7%94%A8-1"><span class="toc-number">2.0.0.1.</span> <span class="toc-text">应用:</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-number">3.</span> <span class="toc-text">数组</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%94%E7%94%A8-2"><span class="toc-number">3.0.0.1.</span> <span class="toc-text">应用:</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8"><span class="toc-number">4.</span> <span class="toc-text">链表</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%94%E7%94%A8-java-util-LinkedList%E9%9B%86%E5%90%88"><span class="toc-number">4.0.0.1.</span> <span class="toc-text">应用: java.util.LinkedList集合</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%A2%E9%BB%91%E6%A0%91"><span class="toc-number">5.</span> <span class="toc-text">红黑树</span></a></li></ol></div></div><div class="post-content"><h1 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h1><blockquote>
+<p>先进后出     压栈pop  弹栈push</p>
+</blockquote>
+<h4 id="应用"><a href="#应用" class="headerlink" title="应用:"></a>应用:</h4><ol>
+<li>方法的调用,method1()在main()上面,method1方法没有执行完,main方法无法结束</li>
+<li>手枪弹匣,先进去的最后发射出来</li>
+</ol>
+<hr>
+<h1 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h1><blockquote>
+<p>先进先出</p>
+</blockquote>
+<h4 id="应用-1"><a href="#应用-1" class="headerlink" title="应用:"></a>应用:</h4><ol>
+<li>吃饭排队</li>
+<li>高铁各车厢进隧道出隧道的顺序</li>
+</ol>
+<hr>
+<h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><blockquote>
+<p>查询快,增删慢</p>
+</blockquote>
+<p>增删慢:</p>
+<ol>
+<li> 数组长度不可变</li>
+<li>每次增删需要创建新数组,并将需要的内容复制到新数组中,删除原来的引用,再赋值给原值,后创建复制和删除三步操作耗时高</li>
+</ol>
+<p>查询快: </p>
+<ol>
+<li>有索引   </li>
+<li>数组元素内存空间连续分配</li>
+</ol>
+<h4 id="应用-2"><a href="#应用-2" class="headerlink" title="应用:"></a>应用:</h4><ol>
+<li>java.util.ArrayList</li>
+</ol>
+<hr>
+<h1 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h1><blockquote>
+<p>查询慢,增删快</p>
+</blockquote>
+<ol>
+<li><p>单向链表 –&gt; 只能从前往后找</p>
+</li>
+<li><p>双向链表  –&gt;  可以从前往后找,也可以从后往前找</p>
+<ol>
+<li><h4 id="应用-java-util-LinkedList集合"><a href="#应用-java-util-LinkedList集合" class="headerlink" title="应用: java.util.LinkedList集合"></a>应用: java.util.LinkedList集合</h4></li>
+</ol>
+</li>
+</ol>
+<h1 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h1><blockquote>
+<p>查询特别快,增删相对也快</p>
+</blockquote>
+<p><img src="C:\Users\MSI-NB\AppData\Roaming\Typora\typora-user-images\image-20201212033220745.png" alt="二叉树&amp;红黑树&amp;平衡树&amp;不平航树结构"></p>
+</div><div class="tags"><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"><i class="fa fa-tag"></i>数据结构</a><a href="/tags/java/"><i class="fa fa-tag"></i>java</a></div><div class="post-nav"><a class="pre" href="/2020/12/12/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/">常用算法</a><a class="next" href="/2020/12/12/%E9%9B%86%E5%90%88%E7%9A%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/">集合的相关知识补充</a></div><div id="disqus_thread"><div class="btn_click_load"><button class="disqus_click_btn">阅读评论（请确保 Disqus 可以正常加载）</button></div><script type="text/javascript">var disqus_config = function () {
+    this.page.url = 'http://example.com/2020/12/12/数据结构相关知识补充/';
+    this.page.identifier = '2020/12/12/数据结构相关知识补充/';
+    this.page.title = '数据结构相关知识补充';
+  };</script><script type="text/javascript" id="disqus-lazy-load-script">$.ajax({
+url: 'https://disqus.com/next/config.json',
+timeout: 2500,
+type: 'GET',
+success: function(){
+  var d = document;
+  var s = d.createElement('script');
+  s.src = '//fenda.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', + new Date());
+  (d.head || d.body).appendChild(s);
+  $('.disqus_click_btn').css('display', 'none');
+},
+error: function() {
+  $('.disqus_click_btn').css('display', 'block');
+}
+});</script><script type="text/javascript" id="disqus-click-load">$('.btn_click_load').click(() => {  //click to load comments
+    (() => { // DON'T EDIT BELOW THIS LINE
+        var d = document;
+        var s = d.createElement('script');
+        s.src = '//fenda.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    $('.disqus_click_btn').css('display','none');
+});</script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://fenda.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/%E5%8F%A5%E5%AD%90/" style="font-size: 25px;">句子</a> <a href="/tags/hexo/" style="font-size: 18.33px;">hexo</a> <a href="/tags/md/" style="font-size: 15px;">md</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 15px;">教程</a> <a href="/tags/%E8%BD%AC%E8%BD%BD/" style="font-size: 15px;">转载</a> <a href="/tags/%E6%88%90%E9%95%BF/" style="font-size: 15px;">成长</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 15px;">数据结构</a> <a href="/tags/java/" style="font-size: 21.67px;">java</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/%E9%9B%86%E5%90%88/" style="font-size: 15px;">集合</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2020/12/12/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/">常用算法</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/12/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/">数据结构相关知识补充</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/12/12/%E9%9B%86%E5%90%88%E7%9A%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/">集合的相关知识补充</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/12/07/Toots-2020-Dec.07-Dec.13/">Toots 2020 Dec.07 - Dec.13</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/30/Toots-2020-Nov.30-Dec.06/">Toots 2020 Nov.30 - Dec.06</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/28/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%A6%82%E4%BD%95%E6%8A%8A%E6%8E%A7%E8%87%AA%E5%B7%B1%E7%9A%84%E8%81%8C%E4%B8%9A/">程序员如何把控自己的职业</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/23/Toots-2020-Nov.23-Nov.29/">Toots 2020 Nov.23 - Nov.29</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/22/Toots-2020-Nov-22/">Toots_2020_Nov.22</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/21/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA_hexo_github_win10/">基于hexo的博客搭建_win10_github</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/11/19/hello-world/">Hello World</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//fenda.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.baidu.com/" title="百度" target="_blank">百度</a><ul></ul><a href="http://www.bing.com/" title="必应" target="_blank">必应</a><ul></ul><a href="https://www.google.com/ncr" title="Google" target="_blank">Google</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2020 <a href="/." rel="nofollow">芬达里没有泡泡.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><link rel="stylesheet" type="text/css" href="/css/search.css?v=0.0.0"><script type="text/javascript" src="/js/search.js?v=0.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+   search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>

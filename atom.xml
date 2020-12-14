@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-12-06T20:30:08.698Z</updated>
+  <updated>2020-12-11T19:30:35.080Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,9 +17,91 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>常用算法</title>
+    <link href="http://example.com/2020/12/12/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/"/>
+    <id>http://example.com/2020/12/12/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/</id>
+    <published>2020-12-11T19:23:23.000Z</published>
+    <updated>2020-12-11T19:30:35.080Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h1><p><img src="C:\Users\MSI-NB\AppData\Roaming\Typora\typora-user-images\image-20201212032444139.png" alt="冒泡排序图解"></p>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="java" scheme="http://example.com/tags/java/"/>
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构相关知识补充</title>
+    <link href="http://example.com/2020/12/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/"/>
+    <id>http://example.com/2020/12/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/</id>
+    <published>2020-12-11T18:54:54.000Z</published>
+    <updated>2020-12-11T19:37:15.857Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h1><blockquote><p>先进后出     压栈pop  弹栈push</p></blockquote><h4 id="应用"><a href="#应用" class="headerlink" title="应用:"></a>应用:</h4><ol><li>方法的调用,method1()在main()上面,method1方法没有执行完,main方法无法结束</li><li>手枪弹匣,先进去的最后发射出来</li></ol><hr><h1 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h1><blockquote><p>先进先出</p></blockquote><h4 id="应用-1"><a href="#应用-1" class="headerlink" title="应用:"></a>应用:</h4><ol><li>吃饭排队</li><li>高铁各车厢进隧道出隧道的顺序</li></ol><hr><h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><blockquote><p>查询快,增删慢</p></blockquote><p>增删慢:</p><ol><li> 数组长度不可变</li><li>每次增删需要创建新数组,并将需要的内容复制到新数组中,删除原来的引用,再赋值给原值,后创建复制和删除三步操作耗时高</li></ol><p>查询快: </p><ol><li>有索引   </li><li>数组元素内存空间连续分配</li></ol><h4 id="应用-2"><a href="#应用-2" class="headerlink" title="应用:"></a>应用:</h4><ol><li>java.util.ArrayList</li></ol><hr><h1 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h1><blockquote><p>查询慢,增删快</p></blockquote><ol><li><p>单向链表 –&gt; 只能从前往后找</p></li><li><p>双向链表  –&gt;  可以从前往后找,也可以从后往前找</p><ol><li><h4 id="应用-java-util-LinkedList集合"><a href="#应用-java-util-LinkedList集合" class="headerlink" title="应用: java.util.LinkedList集合"></a>应用: java.util.LinkedList集合</h4></li></ol></li></ol><h1 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h1><blockquote><p>查询特别快,增删相对也快</p></blockquote><p><img src="C:\Users\MSI-NB\AppData\Roaming\Typora\typora-user-images\image-20201212033220745.png" alt="二叉树&amp;红黑树&amp;平衡树&amp;不平航树结构"></p>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="数据结构" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="java" scheme="http://example.com/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>集合的相关知识补充</title>
+    <link href="http://example.com/2020/12/12/%E9%9B%86%E5%90%88%E7%9A%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/"/>
+    <id>http://example.com/2020/12/12/%E9%9B%86%E5%90%88%E7%9A%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/</id>
+    <published>2020-12-11T18:54:34.000Z</published>
+    <updated>2020-12-12T06:35:02.739Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="集合综合对比图"><a href="#集合综合对比图" class="headerlink" title="集合综合对比图"></a>集合综合对比图</h1><p><img src="C:\Users\MSI-NB\AppData\Roaming\Typora\typora-user-images\image-20201212035806458.png" alt="集合对比图"></p><h1 id="Colletion"><a href="#Colletion" class="headerlink" title="Colletion"></a>Colletion</h1><p><img src="C:\Users\MSI-NB\AppData\Roaming\Typora\typora-user-images\image-20201212034055240.png" alt="集合的继承体系"></p><h2 id="java-util-List"><a href="#java-util-List" class="headerlink" title="java.util.List"></a>java.util.List</h2><blockquote><p>有序、有索引、可重复</p></blockquote><h3 id="java-util-ArrayList"><a href="#java-util-ArrayList" class="headerlink" title="java.util.ArrayList"></a>java.util.ArrayList</h3><h4 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h4><p>创建一个空的ArrayList集合,初始容量是<strong>0</strong>,第一次扩容后容量变为<strong>10</strong>,当添加到第11个元素的时候,后面扩容为原有容量的<strong>1.5倍</strong>,因为每次增加内容都需要进行再次扩容,进行元素的复制和删除操作,占用资源较多,所以尽量避免空参构造,尽量创建数组的时候<strong>指定好大小</strong>,避免多次扩容浪费资源.<a href="%E5%8F%82%E7%9C%8B%E8%A7%86%E9%A2%91:29_ArrayList%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90_%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B7%BB%E5%8A%A0%E5%85%83%E7%B4%A0%E6%89%A9%E5%AE%B9%E5%8E%9F%E7%90%86.avi">^1</a></p><hr><h3 id="java-util-LinkedList"><a href="#java-util-LinkedList" class="headerlink" title="java.util.LinkedList"></a>java.util.LinkedList</h3><h4 id="源码分析-1"><a href="#源码分析-1" class="headerlink" title="源码分析"></a>源码分析</h4><p>查找的时候:(使用<strong>简单二分查找法</strong>)<a href="%E5%8F%82%E7%9C%8B%E8%A7%86%E9%A2%91:32_LinkedList%E9%9B%86%E5%90%88%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90_%E5%AD%98%E5%82%A8%E5%85%83%E7%B4%A0%E7%9A%84%E6%96%B9%E6%B3%95add.avi">^2</a></p><ol><li>如果索引值&lt;长度的一半,从 <strong>头节点</strong>开始找</li><li>如果索引值&gt;长度的一半,从 <strong>尾节点</strong>开始找</li></ol><hr><h2 id="java-util-Set"><a href="#java-util-Set" class="headerlink" title="java.util.Set"></a>java.util.Set</h2><blockquote><p>无索引、不可重复</p></blockquote><h3 id="java-util-HashSet"><a href="#java-util-HashSet" class="headerlink" title="java.util.HashSet"></a>java.util.HashSet</h3><blockquote><p>此类实际上<strong>是</strong>一个<strong>HashMap实例</strong></p></blockquote><p>特点:</p><ol><li><p><strong>底层</strong>数据结构: <strong>哈希表</strong>: 数组 + 单向链表/红黑树(单向链表节点数&gt;8)</p></li><li><p><strong>查询</strong>速度嗷嗷<strong>快</strong>,<strong>增删</strong>也<strong>快</strong></p></li><li><p>无索引</p></li><li><p>不可重复</p></li><li><p><strong>无序</strong>: 不保证存入和取出顺序一致</p></li></ol><hr><h3 id="java-util-LinkedHashSet"><a href="#java-util-LinkedHashSet" class="headerlink" title="java.util.LinkedHashSet"></a>java.util.LinkedHashSet</h3><p>特点:</p><ol><li><strong>底层</strong>数据结构: <strong>哈希表</strong>: 数组 + 单向链表 –&gt; 数组 + 双向链表</li><li><strong>查询</strong>速度嗷嗷<strong>快</strong>,<strong>增删</strong>也<strong>快</strong> (没hashset快)</li><li>无索引</li><li>不可重复</li><li><strong>有序</strong>:  存入和取出顺序一致</li></ol><hr><h1 id="Map"><a href="#Map" class="headerlink" title="Map"></a>Map</h1><h3 id="java-util-HashMap-lt-K-V-gt"><a href="#java-util-HashMap-lt-K-V-gt" class="headerlink" title="java.util.HashMap&lt;K,V&gt;"></a>java.util.HashMap&lt;K,V&gt;</h3><blockquote><p>​       <strong>初始容量16,加载因子0.75,扩容为2倍</strong></p></blockquote><p>特点:</p><ol><li>键唯一,值可重复</li><li>键: 具备哈希特性,采用哈希表结构(数组+单向链表)</li><li>哈希表结构(数组+单向链表): <strong>无索引,元素不可重复,无序</strong></li><li>HashMap集合的键所属类<strong>必须覆盖重写hashCode和equals方法</strong></li><li>可以存储null键和null值</li><li>线程不同步,线程不安全,效率高</li></ol><hr><h3 id="java-util-LinkedHashMap-lt-K-V-gt"><a href="#java-util-LinkedHashMap-lt-K-V-gt" class="headerlink" title="java.util.LinkedHashMap&lt;K,V&gt;"></a>java.util.LinkedHashMap&lt;K,V&gt;</h3><p>特点:</p><ol><li>键唯一,值可重复</li><li>键: 具备哈希特性+链表结构,采用<strong>哈希表结构+链表结构</strong>(数组+双向链表),</li><li>哈希表结构+单项链表(数组+双向链表): <strong>无索引,元素不可重复,有序</strong></li><li>集合的键的所属类<strong>必须覆盖重写hashCode和equals方法</strong></li><li>可以存储null键和null值</li><li>线程不同步,线程不安全,效率高</li></ol><hr><h3 id="java-util-HashTable-lt-K-V-gt"><a href="#java-util-HashTable-lt-K-V-gt" class="headerlink" title="java.util.HashTable&lt;K,V&gt;"></a>java.util.HashTable&lt;K,V&gt;</h3><p>特点(hashTable VS hashMap):</p><ol><li>底层数据结构都是 <strong>哈希表结构</strong>(数组+单向链表)</li><li>HashMap允许存储null键和null值,HashTable不允许</li><li>HashMap线程不同步,效率高;HashTable<strong>线程同步</strong>,效率低</li></ol><p>注意:</p><ol><li>Properties集合是Map接口的实现类,Map接口中定义的方法,Properties集合都可以用</li><li>HashTable类是Map接口的实现类,也定义了泛型K :键的类型,V: 值的类型</li><li>但是Properties集合 继承HashTable类时,已经确定键的类型: Object,值的类型: Object,所以创建Properties集合对象时,不能再指定键和值的类型</li><li>Properties集合内部提供了很多参数和返回值都是String的方法</li><li><strong>Properties集合</strong>是唯一一个<strong>和IO流结合</strong>使用的集合</li></ol><hr>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="java" scheme="http://example.com/tags/java/"/>
+    
+    <category term="集合" scheme="http://example.com/tags/%E9%9B%86%E5%90%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Toots 2020 Dec.07 - Dec.13</title>
+    <link href="http://example.com/2020/12/07/Toots-2020-Dec.07-Dec.13/"/>
+    <id>http://example.com/2020/12/07/Toots-2020-Dec.07-Dec.13/</id>
+    <published>2020-12-06T20:36:04.000Z</published>
+    <updated>2020-12-14T07:05:28.919Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Dec-07"><a href="#Dec-07" class="headerlink" title="Dec.07"></a><strong>Dec.07</strong></h1><hr><ul><li>Sometimes your whole life boils down to one insane move.</li></ul><h1 id="Dec-08"><a href="#Dec-08" class="headerlink" title="Dec.08"></a><strong>Dec.08</strong></h1><hr><ul><li>早就是优势</li><li>互联网人要有互联网意识,抓住任何一个可能的点,避免错过热点</li><li>三百六十行行行出状元,任何看起来不起眼的事情往细了往深了做最终都会有所成绩的</li></ul><h1 id="Dec-09"><a href="#Dec-09" class="headerlink" title="Dec.09"></a><strong>Dec.09</strong></h1><hr><ul><li>竹子用了4年的时间， 仅仅长了3cm， 在第5年开始，却以每天30cm的速度疯狂生长， 仅仅用了6周的时间就长到了15米。 其实，在前面的4年， 竹子把根放土壤里延伸了数百平米。都是为了以后能厚积薄发。 所以，不要浮躁，每天做好努力扎根，努力成长，不要轻言放弃，总有一天，你会发现…原来自己是个土豆</li></ul><h1 id="Dec-10"><a href="#Dec-10" class="headerlink" title="Dec.10"></a><strong>Dec.10</strong></h1><hr><ul><li>「做错」的后悔，可能持续几周、几个月；但「没做」的后悔，可能持续许多年，乃至于成为记忆里一个永久的遗憾。<br>为什么呢？很简单：一件事情做完了，那么它所带来的影响就终止了，哪怕结果不够好，你也可以不断去调整它、优化它；但一件事情没有做，并且再也没机会去做，我们就会对它存在「不确定的损失厌恶」，也就是说：我们知道自己「损失」了，但又不确定「损失了什么」，于是，我们会不断地给这种损失加码，不断地把各种可能的后果，往这个篮子里装。这种感受是最难接受的。</li></ul><h1 id="Dec-11"><a href="#Dec-11" class="headerlink" title="Dec.11"></a><strong>Dec.11</strong></h1><hr><ul><li>似乎所有的小矛盾都可以化为激烈的冲突,而我认为所有的冲突都是可以避免的,避免的方式是在矛盾出现的第一时间就去面对它,逃避只能激化矛盾</li></ul><h1 id="Dec-12"><a href="#Dec-12" class="headerlink" title="Dec.12"></a><strong>Dec.12</strong></h1><hr><ul><li>无论你之前走了那条路,都是你自己走出来的,成功了不要太得意,失败了也不要太苛责,关键是要给自己行走的力量.</li></ul><h1 id="Dec-13"><a href="#Dec-13" class="headerlink" title="Dec.13"></a><strong>Dec.13</strong></h1><hr><ul><li>人和人刚认识的时候最美好.</li><li>行动是打败焦虑最有效的方法.</li></ul>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="句子" scheme="http://example.com/tags/%E5%8F%A5%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Toots 2020 Nov.30 - Dec.06</title>
-    <link href="http://example.com/2020/11/30/Toots-2020-Nov.30-Dec.6/"/>
-    <id>http://example.com/2020/11/30/Toots-2020-Nov.30-Dec.6/</id>
+    <link href="http://example.com/2020/11/30/Toots-2020-Nov.30-Dec.06/"/>
+    <id>http://example.com/2020/11/30/Toots-2020-Nov.30-Dec.06/</id>
     <published>2020-11-29T17:03:04.000Z</published>
     <updated>2020-12-06T20:30:08.698Z</updated>
     
