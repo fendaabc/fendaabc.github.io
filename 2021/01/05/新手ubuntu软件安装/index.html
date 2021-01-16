@@ -1,0 +1,236 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>新手ubuntu软件安装 | 芬达里没有泡泡</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 5.2.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">新手ubuntu软件安装</h1><a id="logo" href="/.">芬达里没有泡泡</a><p class="description">来杯可乐,不加糖</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">新手ubuntu软件安装</h1><div class="post-meta">2021-01-05<script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span><span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 2k</span><span class="post-meta-item-text"> 字</span></span></span><span class="post-time"> | <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i><span class="post-count"> 8</span><span class="post-meta-item-text"> 分钟</span></span></span></div><a class="disqus-comment-count" data-disqus-identifier="2021/01/05/新手ubuntu软件安装/" href="/2021/01/05/%E6%96%B0%E6%89%8Bubuntu%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/#disqus_thread"></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%8D%E5%90%8C%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E5%8D%B8%E8%BD%BD%E6%96%B9%E5%BC%8F"><span class="toc-number">1.</span> <span class="toc-text">不同软件的安装和卸载方式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#deb%E6%96%87%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="toc-number">1.1.</span> <span class="toc-text">deb文件安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#appimages%E5%AE%89%E8%A3%85"><span class="toc-number">1.2.</span> <span class="toc-text">appimages安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#rpm%E5%AE%89%E8%A3%85"><span class="toc-number">1.3.</span> <span class="toc-text">rpm安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%B8%E8%BD%BD"><span class="toc-number">1.4.</span> <span class="toc-text">卸载</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%8E%AF%E5%A2%83%E7%B1%BB%E8%BD%AF%E4%BB%B6"><span class="toc-number">2.</span> <span class="toc-text">环境类软件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#jdk"><span class="toc-number">2.1.</span> <span class="toc-text">jdk</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tomcat"><span class="toc-number">2.2.</span> <span class="toc-text">tomcat</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#maven"><span class="toc-number">2.3.</span> <span class="toc-text">maven</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E7%B1%BB%E7%B1%BB%E8%BD%AF%E4%BB%B6"><span class="toc-number">3.</span> <span class="toc-text">工作类类软件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%88%E7%8E%87%E7%B1%BB%E8%BD%AF%E4%BB%B6"><span class="toc-number">4.</span> <span class="toc-text">效率类软件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%88%E7%AB%AF%E8%B0%83%E6%95%99"><span class="toc-number">5.</span> <span class="toc-text">终端调教</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6"><span class="toc-number">6.</span> <span class="toc-text">其他软件</span></a></li></ol></div></div><div class="post-content"><blockquote>
+<p> 我将自己下载的文件已经放在了对应的软件包里,如果要安装优先找软件包,找不到再去别的地方.</p>
+<p>为了方便管理,我将下载的安装文件创建了一个<code>soft</code>文件夹进行保存,将解压后的软件放在<code>/usr/local/</code>目录中,将maven tomcat jdk这种环境类的放在<code>/usr/local/envir</code>中.</p>
+</blockquote>
+<h1 id="不同软件的安装和卸载方式"><a href="#不同软件的安装和卸载方式" class="headerlink" title="不同软件的安装和卸载方式"></a>不同软件的安装和卸载方式</h1><h2 id="deb文件安装"><a href="#deb文件安装" class="headerlink" title="deb文件安装"></a>deb文件安装</h2><p>dpkg -i 文件名</p>
+<p>如果提示<strong>依赖关系问题仍未被配置</strong>,可以使用    </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt autoremove</span><br><span class="line">sudo apt --fix-broken install</span><br><span class="line">还有一种情况就是这个软件已经安装了.</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="appimages安装"><a href="#appimages安装" class="headerlink" title="appimages安装"></a>appimages安装</h2><p>右键属性,修改权限为读写可执行,然后直接运行,这个软件相当于win中的绿色软件自带了运行环境,无需安装.</p>
+<p>对于这种类型的软件如果需要每次都启动就很麻烦,所以可以用它的管理工具<strong>AppimageLancher</strong></p>
+<h2 id="rpm安装"><a href="#rpm安装" class="headerlink" title="rpm安装"></a>rpm安装</h2><p>Ubuntu的软件包格式是deb，如果要安装rpm的包，则要先用alien把rpm转换成deb。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install alien <span class="comment">#alien默认没有安装，所以首先要安装它</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo alien xxxx.rpm <span class="comment">#将rpm转换位deb，完成后会生成一个同名的xxxx.deb</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg -i xxxx.deb <span class="comment">#安装</span></span><br></pre></td></tr></table></figure>
+
+<p>注意，用alien转换的deb包并不能保证100%顺利安装，所以可以找到deb最好直接用deb</p>
+<p><strong>方法一：</strong></p>
+<ol>
+<li>先安装 alien 和 fakeroot 这两个工具，其中前者可以将 rpm 包转换为 deb 包。安装命令为：</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install alien fakeroot</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li><p>将需要安装的 rpm 包下载备用，假设为 package.rpm。</p>
+</li>
+<li><p>使用 alien 将 rpm 包转换为 deb 包：</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fakeroot alien package.rpm</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>一旦转换成功，我们可以即刻使用以下指令来安装：</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg -i package.deb</span><br></pre></td></tr></table></figure>
+
+<p><strong>方法二：</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install rpm alien</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alien -d package.rpm</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg -i package.deb</span><br></pre></td></tr></table></figure>
+
+<h2 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get purge xxx           <span class="comment"># 卸载1</span></span><br><span class="line">sudo apt-get remove --purge xxx  <span class="comment"># 卸载2</span></span><br><span class="line">sudo apt-get autoremove xxx      <span class="comment"># 卸载3</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="环境类软件"><a href="#环境类软件" class="headerlink" title="环境类软件"></a>环境类软件</h1><h2 id="jdk"><a href="#jdk" class="headerlink" title="jdk"></a>jdk</h2><blockquote>
+<p>我下载的时候版本下载错了,导致配置完环境提示无法解析二进制码,我错下成了arm64位的版本,应该下载的是<strong>x64</strong>版本</p>
+</blockquote>
+<p>放到自己能找到的目录,然后按照如下编辑配置文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#打开配置文件</span></span><br><span class="line">sudo gedit /etc/profile</span><br><span class="line"><span class="comment">#在最下面进行添加如下配置</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#jdk安装路径</span></span><br><span class="line"><span class="built_in">export</span> JAVA_HOME=/usr/<span class="built_in">local</span>/envir/java/jdk1.8.0_271 <span class="comment">#这里的地址写自己的实际地址,你的和我的可能不一样</span></span><br><span class="line"><span class="comment">#jre安装路径</span></span><br><span class="line"><span class="built_in">export</span> JRE_HOME=/usr/<span class="built_in">local</span>/envir/java/jdk1.8.0_271/jre <span class="comment">#这里的地址写自己的实际地址,你的和我的可能不一样</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span></span><br><span class="line"><span class="built_in">export</span> CLASSPATH=.<span class="variable">$JAVA_HOME</span>/jre/lib/rt.jar:<span class="variable">$JAVA_HOME</span>/lib/dt.jar:<span class="variable">$JAVA_HOME</span>/lib/tools.jar</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>然后回到命令行,让环境生效</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#让环境生效</span></span><br><span class="line"><span class="built_in">source</span> /etc/profile</span><br><span class="line"><span class="comment">#测试是否配置成功,看是否会出现正确的java版本信息</span></span><br><span class="line">java -version</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="tomcat"><a href="#tomcat" class="headerlink" title="tomcat"></a>tomcat</h2><p>先在下载的文件夹进行解压,然后移动到需要放的位置,要不然权限不够还需要修改权限,放好后直接进入bin目录,用命令<code>./startup.sh</code>启动服务,然后用网页访问<code>http://localhost:8080/</code>看服务是否启动.</p>
+<h2 id="maven"><a href="#maven" class="headerlink" title="maven"></a>maven</h2><p>下载解压后放到你能找到的位置,然后记住当前地址,到配置文件中更改地址方便全局访问</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#打开配置文件</span></span><br><span class="line">sudo gedit /etc/profile</span><br><span class="line"><span class="comment">#在最下面进行添加如下配置</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#maven安装路径</span></span><br><span class="line">MAVEN_HOME=/usr/<span class="built_in">local</span>/envir/apache-maven-3.6.3 <span class="comment">#写自己的地址</span></span><br><span class="line"><span class="built_in">export</span> MAVEN_HOME</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$&#123;PATH&#125;</span>:<span class="variable">$&#123;MAVEN_HOME&#125;</span>/bin</span><br></pre></td></tr></table></figure>
+
+<p>然后回到命令行,让环境生效</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#让环境生效</span></span><br><span class="line"><span class="built_in">source</span> /etc/profile</span><br><span class="line"><span class="comment">#测试是否配置成功,看是否会出现正确的版本信息</span></span><br><span class="line">mvn -v</span><br></pre></td></tr></table></figure>
+
+<p>修改maven的常用配置:</p>
+<ol>
+<li><p>创建reop目录,方便后期下载的依赖进行查找</p>
+</li>
+<li><p>修改setting文件,配置依赖的存放地址和修改使用阿里云的源</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">&lt;!--在conf的settings.xml文件中进行添加本地依赖库和在mirros标签中添加阿里云--&gt;</span></span><br><span class="line"></span><br><span class="line"> <span class="comment">&lt;!--本地依赖库地址--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">localRepository</span>&gt;</span></span><br><span class="line">    /usr/local/envir/apache-maven-3.6.3/repo</span><br><span class="line"><span class="tag">&lt;/<span class="name">localRepository</span>&gt;</span></span><br><span class="line"></span><br><span class="line"> <span class="comment">&lt;!--mirrors标签中配置阿里云源--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">mirror</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">id</span>&gt;</span>AliMaven<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">name</span>&gt;</span>aliyun maven<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">url</span>&gt;</span>http://maven.aliyun.com/nexus/content/groups/public/<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">mirrorOf</span>&gt;</span>central<span class="tag">&lt;/<span class="name">mirrorOf</span>&gt;</span>        </span><br><span class="line">    <span class="tag">&lt;/<span class="name">mirror</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>记得修改idea中的maven配置</p>
+</li>
+</ol>
+<h1 id="工作类类软件"><a href="#工作类类软件" class="headerlink" title="工作类类软件"></a>工作类类软件</h1><blockquote>
+<p>自己找官方连接下载</p>
+</blockquote>
+<ul>
+<li><p>idea_办公</p>
+</li>
+<li><p>datadrap_数据库</p>
+</li>
+<li><p>postman_接口测试</p>
+</li>
+<li><p>terminal终端工具_可同时开多个窗口</p>
+</li>
+<li><p>virtualbox虚拟机</p>
+</li>
+<li><p>sublime</p>
+</li>
+<li><p>finalshell</p>
+</li>
+</ul>
+<h1 id="效率类软件"><a href="#效率类软件" class="headerlink" title="效率类软件"></a>效率类软件</h1><blockquote>
+<p>自己找官方连接下载</p>
+</blockquote>
+<ul>
+<li><p>flameshot_截图工具</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#设置截图快捷键</span></span><br><span class="line">1. 打开系统的设置,找到键盘快捷键,翻到最下面点击`+`号进行添加</span><br><span class="line">2. 名字随意,命令`flameshot gui`</span><br><span class="line">3. 快捷键自己设置,我用`f1`</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><p>wps</p>
+</li>
+<li><p>chrome</p>
+</li>
+<li><p>typora</p>
+</li>
+<li><p>copyq_剪贴板管理工具</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. 在`首选项`中设置,</span><br><span class="line">2. `显示或隐藏主窗口`,我用的 `Ctrl+` ,这和我win中的快捷键一样</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>搜狗输入法_<a href="https://pinyin.sogou.com/linux/">官方链接</a> <a href="https://pinyin.sogou.com/linux/help.php">安装教程</a></p>
+</li>
+<li><p>picgo图床工具_<a href="">官网链接</a></p>
+<p>因为想配合typora使用，所以最后安装的命令行版本，typora设置图片自动上传图床功能：</p>
+<p>进入文件-设置-偏好设置-图像<img src="https://i.loli.net/2021/01/03/chgJTIZudFEK1m5.png" alt="image-20210103000017152"></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">优先完成图中的123设置，然后打开配置，修改配置文件为如下即可(注意：下面的是我个人的smms地址和GitHub地址，我的token没写，要用相同图床的自己去注册吧~~如果是我自己忘了，请去查看为知笔记中的备份文件.)</span><br><span class="line"></span><br><span class="line">​```json</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;picBed&quot;</span>: &#123;</span><br><span class="line">    <span class="string">&quot;current&quot;</span>: <span class="string">&quot;smms&quot;</span>,</span><br><span class="line">    <span class="string">&quot;uploader&quot;</span>: <span class="string">&quot;smms&quot;</span>,</span><br><span class="line">    <span class="string">&quot;smms&quot;</span>: &#123;</span><br><span class="line">      <span class="string">&quot;token&quot;</span>: <span class="string">&quot; &quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;list&quot;</span>: [</span><br><span class="line">      &#123;</span><br><span class="line">        <span class="string">&quot;name&quot;</span>: <span class="string">&quot;SM.MS图床&quot;</span>,</span><br><span class="line">        <span class="string">&quot;type&quot;</span>: <span class="string">&quot;smms&quot;</span>,</span><br><span class="line">        <span class="string">&quot;visible&quot;</span>: <span class="literal">true</span></span><br><span class="line">      &#125;,</span><br><span class="line">      </span><br><span class="line">      &#123;</span><br><span class="line">        <span class="string">&quot;name&quot;</span>: <span class="string">&quot;GitHub图床&quot;</span>,</span><br><span class="line">        <span class="string">&quot;type&quot;</span>: <span class="string">&quot;github&quot;</span>,</span><br><span class="line">        <span class="string">&quot;visible&quot;</span>: <span class="literal">true</span></span><br><span class="line">      &#125;</span><br><span class="line">    ],</span><br><span class="line">    <span class="string">&quot;github&quot;</span>: &#123;</span><br><span class="line">      <span class="string">&quot;branch&quot;</span>: <span class="string">&quot;master&quot;</span>,</span><br><span class="line">      <span class="string">&quot;customUrl&quot;</span>: <span class="string">&quot;&quot;</span>,</span><br><span class="line">      <span class="string">&quot;path&quot;</span>: <span class="string">&quot;&quot;</span>,</span><br><span class="line">      <span class="string">&quot;repo&quot;</span>: <span class="string">&quot;fendaabc/for-picgo&quot;</span>,</span><br><span class="line">      <span class="string">&quot;token&quot;</span>: <span class="string">&quot;   &quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">   </span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="string">&quot;settings&quot;</span>: &#123;</span><br><span class="line">    <span class="string">&quot;shortKey&quot;</span>: &#123;</span><br><span class="line">      <span class="string">&quot;picgo:upload&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;enable&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">        <span class="string">&quot;key&quot;</span>: <span class="string">&quot;CommandOrControl+Shift+P&quot;</span>,</span><br><span class="line">        <span class="string">&quot;name&quot;</span>: <span class="string">&quot;upload&quot;</span>,</span><br><span class="line">        <span class="string">&quot;label&quot;</span>: <span class="string">&quot;快捷上传&quot;</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;server&quot;</span>: &#123;</span><br><span class="line">      <span class="string">&quot;port&quot;</span>: 36677,</span><br><span class="line">      <span class="string">&quot;host&quot;</span>: <span class="string">&quot;127.0.0.1&quot;</span>,</span><br><span class="line">      <span class="string">&quot;enable&quot;</span>: <span class="literal">true</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;showUpdateTip&quot;</span>: <span class="literal">false</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="string">&quot;picgoPlugins&quot;</span>: &#123;&#125;,</span><br><span class="line">  <span class="string">&quot;debug&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="string">&quot;PICGO_ENV&quot;</span>: <span class="string">&quot;GUI&quot;</span>,</span><br><span class="line">  <span class="string">&quot;needReload&quot;</span>: <span class="literal">false</span></span><br><span class="line">&#125;    </span><br></pre></td></tr></table></figure>
+
+<p>然后点击验证是否可以正常上传，这些配置文件都是我在win平台原来配置好的提取出来的，应该是没啥问题，提示上传成功的话就可以正常使用了。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">  </span><br></pre></td></tr></table></figure>
+</li>
+<li><p>微信</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">应用商店，装了，但我的号不能登陆            </span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><p>钉钉</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">没装</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>系统性能监控软件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install -y indicator-sysmonitor</span><br><span class="line"></span><br><span class="line"><span class="comment">#安装好后，搜索sys然后打开，设置首选项，设置开机自启动，然后我默认设置的显示cpu-内存和网速</span></span><br><span class="line">CPU:&#123;cpu&#125; | 内存:&#123;mem&#125; | 网速:&#123;net&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<h1 id="终端调教"><a href="#终端调教" class="headerlink" title="终端调教"></a>终端调教</h1><ol>
+<li><p>git—- <code>sudo apt-get install git</code></p>
+</li>
+<li><p>ssh— <code>sudo apt-get install ssh</code></p>
+</li>
+<li><p>历史命令匹配和忽略大小写</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#打开文件</span></span><br><span class="line">sudo gedit ~/.bashrc</span><br><span class="line"></span><br><span class="line"><span class="comment">#要添加的内容</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#历史命令前缀匹配</span></span><br><span class="line"><span class="built_in">bind</span> <span class="string">&#x27;&quot;\e[A&quot;: history-search-backward&#x27;</span></span><br><span class="line"><span class="built_in">bind</span> <span class="string">&#x27;&quot;\e[B&quot;: history-search-forward&#x27;</span> </span><br><span class="line"></span><br><span class="line"><span class="comment">#忽略命令大小写匹配：在~/.inputrc文件加入以下两行</span></span><br><span class="line"><span class="built_in">set</span> completion-ignore-case on</span><br><span class="line"><span class="built_in">set</span> show-all-if-ambiguous on</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#让命令生效</span></span><br><span class="line"><span class="built_in">source</span> ～/.bashrc </span><br></pre></td></tr></table></figure>
+</li>
+<li></li>
+</ol>
+<h1 id="其他软件"><a href="#其他软件" class="headerlink" title="其他软件"></a>其他软件</h1><blockquote>
+<p>自己找官方连接下载</p>
+</blockquote>
+<ul>
+<li><p>网易云_<a href="https://music.163.com/#/download">官网链接</a></p>
+</li>
+<li><p>VLC_(自带应用商店)</p>
+</li>
+<li><p>xmind__<a href="https://www.xmind.cn/download/">官网链接</a></p>
+</li>
+<li><p>clashy_appimage格式</p>
+</li>
+<li><p>appimagelauncher_<a href="https://blog.csdn.net/u012057432/article/details/103097632">参考文章</a> <a href="https://github.com/TheAssassin/AppImageLauncher/releases">下载地址</a></p>
+</li>
+<li><p>gimp图片处理软件_<code>apt install gimp</code></p>
+</li>
+<li><p>Albert_快速启动工具<a href="https://software.opensuse.org/download.html?project=home:manuelschneid3r&package=albert">官方地址</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">下载的软件，链接装不上</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>向日葵</p>
+<blockquote>
+<p>安装提示依赖抱错,目前未解决,方法可<br><a href="https://blog.csdn.net/enderman19980125/article/details/110294978">参考1</a><br><a href="https://zhuanlan.zhihu.com/p/144426017">参考2</a></p>
+<p><a href="https://www.cnblogs.com/niceland/p/0x0000.html">参考3</a>驱动已下载_wifi驱动</p>
+</blockquote>
+</li>
+</ul>
+</div><div class="tags"><a href="/tags/ubuntu/"><i class="fa fa-tag"></i>ubuntu</a></div><div class="post-nav"><a class="pre" href="/2021/01/10/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/">数据库学习</a><a class="next" href="/2020/12/14/Toots-2020-Dec.14-Dec.20/">Toots 2020 Dec.14 - Dec.20</a></div><div id="disqus_thread"><div class="btn_click_load"><button class="disqus_click_btn">阅读评论（请确保 Disqus 可以正常加载）</button></div><script type="text/javascript">var disqus_config = function () {
+    this.page.url = 'http://example.com/2021/01/05/新手ubuntu软件安装/';
+    this.page.identifier = '2021/01/05/新手ubuntu软件安装/';
+    this.page.title = '新手ubuntu软件安装';
+  };</script><script type="text/javascript" id="disqus-lazy-load-script">$.ajax({
+url: 'https://disqus.com/next/config.json',
+timeout: 2500,
+type: 'GET',
+success: function(){
+  var d = document;
+  var s = d.createElement('script');
+  s.src = '//fenda.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', + new Date());
+  (d.head || d.body).appendChild(s);
+  $('.disqus_click_btn').css('display', 'none');
+},
+error: function() {
+  $('.disqus_click_btn').css('display', 'block');
+}
+});</script><script type="text/javascript" id="disqus-click-load">$('.btn_click_load').click(() => {  //click to load comments
+    (() => { // DON'T EDIT BELOW THIS LINE
+        var d = document;
+        var s = d.createElement('script');
+        s.src = '//fenda.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    $('.disqus_click_btn').css('display','none');
+});</script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://fenda.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/mybatis/" style="font-size: 15px;">mybatis</a> <a href="/tags/%E5%8F%A5%E5%AD%90/" style="font-size: 25px;">句子</a> <a href="/tags/hexo/" style="font-size: 18.33px;">hexo</a> <a href="/tags/md/" style="font-size: 15px;">md</a> <a href="/tags/java/" style="font-size: 21.67px;">java</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 15px;">数据库</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 15px;">数据结构</a> <a href="/tags/ubuntu/" style="font-size: 15px;">ubuntu</a> <a href="/tags/%E6%B5%8E%E5%8D%97/" style="font-size: 15px;">济南</a> <a href="/tags/work/" style="font-size: 15px;">work</a> <a href="/tags/%E9%9B%86%E5%90%88/" style="font-size: 15px;">集合</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 15px;">教程</a> <a href="/tags/%E8%BD%AC%E8%BD%BD/" style="font-size: 15px;">转载</a> <a href="/tags/%E6%88%90%E9%95%BF/" style="font-size: 15px;">成长</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2021/01/13/2021-01-13-mybatis%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/">mybatis基本使用及相关注意事项</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/01/12/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E6%80%BB%E7%BB%93/">阿里巴巴代码规范总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/01/12/2021-01-12-his%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E8%A1%A8%E5%AD%A6%E4%B9%A0/">his系统常用表学习</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/01/11/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%97%E5%85%B8%E5%BF%AB%E6%9F%A5/">数据库字典快查</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/01/11/sync%E6%A8%A1%E5%9D%97%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E5%8F%8A%E8%B7%AF%E5%BE%84/">sync模块代码结构及路径</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/01/11/%E6%B5%8E%E5%8D%97%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2-%E6%9D%A8%E6%96%8C%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/">济南中心医院_杨斌学习计划</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/01/10/ssh%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/">ssh学习记录</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/01/10/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/">数据库学习</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/01/05/%E6%96%B0%E6%89%8Bubuntu%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/">新手ubuntu软件安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/12/14/Toots-2020-Dec.14-Dec.20/">Toots 2020 Dec.14 - Dec.20</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//fenda.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.baidu.com/" title="百度" target="_blank">百度</a><ul></ul><a href="http://www.bing.com/" title="必应" target="_blank">必应</a><ul></ul><a href="https://www.google.com/ncr" title="Google" target="_blank">Google</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2021 <a href="/." rel="nofollow">芬达里没有泡泡.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><link rel="stylesheet" type="text/css" href="/css/search.css?v=0.0.0"><script type="text/javascript" src="/js/search.js?v=0.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+   search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
