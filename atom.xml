@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-04T01:52:06.000Z</updated>
+  <updated>2021-03-05T10:07:33.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2021/03/05/Terminator%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%95%B4%E7%90%86/"/>
-    <id>http://example.com/2021/03/05/Terminator%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%95%B4%E7%90%86/</id>
-    <published>2021-03-05T11:59:31.316Z</published>
-    <updated>2021-03-04T01:52:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>打开命令窗口 ctrl+alt+t</li><li>水平新建一个窗口 ctrl+shift+o</li><li>垂直新建一个窗口 </li><li>在不同窗口之间切换 alt+方向键</li><li>当前窗口最大化或恢复正常 ctrl+shift+x</li><li>粘贴  鼠标右键或者Ctrl+shift+v</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;打开命令窗口 ctrl+alt+t&lt;/li&gt;
-&lt;li&gt;水平新建一个窗口 ctrl+shift+o&lt;/li&gt;
-&lt;li&gt;垂直新建一个窗口 &lt;/li&gt;
-&lt;li&gt;在不同窗口之间切换 alt+方向键&lt;/li&gt;
-&lt;li&gt;当前窗口最大化或恢复正常 ctrl+shift+x&lt;/</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>JucNote</title>
@@ -80,11 +55,11 @@
   </entry>
   
   <entry>
-    <title>设计模式-note</title>
+    <title>设计模式-note-needtodo</title>
     <link href="http://example.com/2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_note/"/>
     <id>http://example.com/2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_note/</id>
     <published>2021-03-02T12:24:54.000Z</published>
-    <updated>2021-03-02T13:14:43.000Z</updated>
+    <updated>2021-03-05T14:56:57.268Z</updated>
     
     <content type="html"><![CDATA[<p>1.概述</p><p>常见设计模式有23种</p><p>2.oop七大原则</p><ul><li><strong>开闭原则</strong>：对扩展开放，对修改关闭</li><li><strong>里氏替换原则</strong>：集成必须确保超类所拥有的性质在子类中仍然成立</li><li><strong>依赖倒置原则</strong>：药面向接口编程，不面向实现编程</li><li><strong>单一职责原则</strong>：控制类的粒度大小、将对象解耦、提高其内聚性</li><li><strong>迪米特法则</strong>：只与你的直接朋友交谈，不跟“陌生人”说话</li><li><strong>合成复用原则</strong>：尽量先是纯色组合或者聚合等关联关系来实现，其次才考虑使用继承关系来实现</li></ul>]]></content>
     
@@ -144,68 +119,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2021/02/23/rocketmq/"/>
-    <id>http://example.com/2021/02/23/rocketmq/</id>
-    <published>2021-02-23T14:42:23.850Z</published>
-    <updated>2021-02-19T06:30:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2021/02/18/PhvMoLxsXCKaUdb.png" alt="image-20210218203324712"></p><p>参考<a href="https://blog.csdn.net/wu4566285/article/details/105906677">地址</a>:我将里面所有的安装地址都放在usr/local目录下</p><p>启动mq</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/rocketmq/rocketmq-4.7.0/bin</span><br><span class="line"></span><br><span class="line"><span class="comment">## 启动nameserver</span></span><br><span class="line">nohup sh mqnamesrv &gt;/usr/<span class="built_in">local</span>/rocketmq/rocketmq-4.7.0/logs/mqnamesrv.log 2&gt;&amp;1 &amp;</span><br><span class="line"><span class="comment">## 启动broker</span></span><br><span class="line">nohup sh mqbroker -n localhost:9876 &gt;//usr/<span class="built_in">local</span>/rocketmq/rocketmq-4.7.0/logs/broker.log 2&gt;&amp;1 &amp;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">##查看是否启动成功</span></span><br><span class="line">jps</span><br></pre></td></tr></table></figure><p>停止mq</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sh mqshutdown broker</span><br><span class="line">sh mqshutdown namesrv</span><br></pre></td></tr></table></figure><p>安装可视化界面</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/02/18/PhvMoLxsXCKaUdb.png&quot; alt=&quot;image-20210218203324712&quot;&gt;&lt;/p&gt;
-&lt;p&gt;参考&lt;a href=&quot;https://blog.csdn.net/wu456</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2021/02/23/rabbitmq-%E5%B7%B2%E5%BC%83%E5%9D%91%E6%9A%82%E6%97%B6%E7%94%A8%E4%B8%8D%E4%B8%8A/"/>
-    <id>http://example.com/2021/02/23/rabbitmq-%E5%B7%B2%E5%BC%83%E5%9D%91%E6%9A%82%E6%97%B6%E7%94%A8%E4%B8%8D%E4%B8%8A/</id>
-    <published>2021-02-23T14:42:23.837Z</published>
-    <updated>2021-02-18T09:17:28.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>参考：<a href="https://my.oschina.net/u/2364788/blog/2875902">ubuntu上rabbitmq的安装和启动</a></p><p><a href="https://www.cnblogs.com/williamjie/p/9481774.html">简介入门</a></p><p>启动web管理端：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rabbitmq-plugins <span class="built_in">enable</span> rabbitmq_management</span><br></pre></td></tr></table></figure><p>本地地址：<a href="http://localhost:15672/#/">http://localhost:15672/#/</a></p><p>用户名、密码：admin</p></blockquote><p>消息队列的使用过程大概如下：</p><p>（1）客户端连接到消息队列服务器，打开一个channel。<br>（2）客户端声明一个exchange，并设置相关属性。<br>（3）客户端声明一个queue，并设置相关属性。<br>（4）客户端使用binding key，在exchange和queue之间建立好绑定关系。<br>（5）客户端投递消息到exchange。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;参考：&lt;a href=&quot;https://my.oschina.net/u/2364788/blog/2875902&quot;&gt;ubuntu上rabbitmq的安装和启动&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Toots_2021_Feb_18</title>
-    <link href="http://example.com/2021/02/18/Toots-2021-Feb-18/"/>
-    <id>http://example.com/2021/02/18/Toots-2021-Feb-18/</id>
-    <published>2021-02-18T01:10:13.000Z</published>
-    <updated>2021-02-18T01:18:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>Feb-18</li></ul><hr><ul><li><p>假期结束，硬生生一分一分拖到快迟到才起来，恍恍惚惚到了车站恍恍惚惚等车，看着150的到来莫名其妙上了183，车行一半发现路线错了，将错就错打车竟然提前到了公司。</p></li><li></li></ul>]]></content>
-    
-    
-    <summary type="html">To the time to life, rather than to life in time.</summary>
-    
-    
-    
-    
-    <category term="daily" scheme="http://example.com/tags/daily/"/>
     
   </entry>
   
@@ -307,11 +220,11 @@
   </entry>
   
   <entry>
-    <title>ssh学习记录</title>
-    <link href="http://example.com/2021/01/10/ssh%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    <id>http://example.com/2021/01/10/ssh%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</id>
+    <title>SSH_Note-todo</title>
+    <link href="http://example.com/2021/01/10/SSH_Note/"/>
+    <id>http://example.com/2021/01/10/SSH_Note/</id>
     <published>2021-01-10T09:55:49.000Z</published>
-    <updated>2021-01-10T14:44:27.313Z</updated>
+    <updated>2021-03-05T14:58:45.451Z</updated>
     
     <content type="html"><![CDATA[<ol><li><p>安装ssh</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#在bash中输入</span></span><br><span class="line">sudo apt install openssh-client</span><br><span class="line"><span class="comment">#测试是否安装成功,显示版本号</span></span><br><span class="line">ssh -V</span><br></pre></td></tr></table></figure></li><li><p>登录服务器</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#以我的云主机为例,其中我的用户名:dc2-user 我的ip地址:117.51.155.221,连接的时候请改成自己的,中间用@进行分隔</span></span><br><span class="line">ssh dc2-user@117.51.155.221</span><br><span class="line"><span class="comment">#输入完之后会提示第一次连接,先输入yes 回车,然后输入用户密码,即可登录成功,发现用户已经变化了</span></span><br></pre></td></tr></table></figure><img src="https://i.loli.net/2021/01/10/jWcB7OZQiKHlkGw.png" alt="image-20210110180336172" style="zoom:135%;" /><p><img src="https://i.loli.net/2021/01/10/tGaNiOYjIfkpKsV.png" alt="image-20210110180406136"></p></li><li><p>ssh的配置文件</p><ol><li>全局配置文件: <code>/etc/ssh/ssh_config</code></li><li>个人配置文件: <code>~/.ssh/config</code></li></ol></li><li></li></ol>]]></content>
     
@@ -324,11 +237,11 @@
   </entry>
   
   <entry>
-    <title>数据库学习</title>
+    <title>数据库学习--进行中</title>
     <link href="http://example.com/2021/01/10/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/"/>
     <id>http://example.com/2021/01/10/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</id>
     <published>2021-01-10T08:50:04.000Z</published>
-    <updated>2021-02-22T08:25:58.000Z</updated>
+    <updated>2021-03-05T14:53:50.261Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Orcale"><a href="#Orcale" class="headerlink" title="Orcale"></a>Orcale</h1><ol><li><p>nvl(eExpression1,eExpression2)</p><p>用法: 如果eExpression1的计算结果为null,则返回eExpression2;不为null,则返回eExpression1.</p></li><li><p>select * into a from b</p><p>用法: 将表b中的查找的数据记录在表a中</p></li><li><p>:= 和=:的区别</p><p><strong>=：</strong>应该相当于 a = :b 表明b是个绑定变量，需要执行时进行变量绑定<br><strong>:=</strong> 相当于一般编程语言中的 赋值 a := 1 即将 数字1<strong>赋值</strong>给变量 a</p></li><li><p>异常抛出:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Err_Item是上面定义好的异常抛出,这里将message的内容进行抛出,存过前面已经进行定义</span><br><span class="line">message :&#x3D; &#39;排班id无效或已取消&#39;;</span><br><span class="line">raise Err_Item</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol><ol><li><p>decode()函数语法:</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> <span class="keyword">decode</span>（columnname，值<span class="number">1</span>,翻译值<span class="number">1</span>,值<span class="number">2</span>,翻译值<span class="number">2</span>,...值n,翻译值n,缺省值）</span><br><span class="line"><span class="keyword">From</span> talbename</span><br><span class="line"><span class="keyword">Where</span> …</span><br></pre></td></tr></table></figure><p>主要作用：相当于switch语句，case1，case2……..将查询结果翻译成其他值</p><p>举例：</p><p>现定义一 table 名为 output，其中定义两个 column 分别为 monthid（var 型）和 sale（number 型），若 sale 值 = 1000 时翻译为 D，=2000 时翻译为 C，=3000 时翻译为 B，=4000 时翻译为 A，如是其他值则翻译为 Other：</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> monthid , <span class="keyword">decode</span> (sale,<span class="number">1000</span>,<span class="string">&#x27;D&#x27;</span>,<span class="number">2000</span>,<span class="string">&#x27;C&#x27;</span>,<span class="number">3000</span>,<span class="string">&#x27;B&#x27;</span>,<span class="number">4000</span>,<span class="string">&#x27;A&#x27;</span>,’Other’) sale <span class="keyword">from</span> <span class="keyword">output</span></span><br></pre></td></tr></table></figure></li><li><p>NVL(EXPR1,EXPR2)</p></li></ol><p>　　若 EXPR1 是 NULL, 则返回 EXPR2, 否则返回 EXPR1。</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">NAME</span>,NVL(TO_CHAR(COMM),<span class="string">&#x27;NOT APPLICATION&#x27;</span>) <span class="keyword">FROM</span> TABLE1;</span><br></pre></td></tr></table></figure><pre><code>如果用到 decode 函数中：</code></pre><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> monthid,<span class="keyword">decode</span>(nvl(sale,<span class="number">6000</span>),<span class="number">6000</span>,<span class="string">&#x27;NG&#x27;</span>,<span class="string">&#x27;OK&#x27;</span>) <span class="keyword">from</span> <span class="keyword">output</span>;</span><br></pre></td></tr></table></figure><ol><li><p>sign()</p><p>sign() 函数根据某个值是 0、正数还是负数，分别返回 0、1、-1，</p><p>用如下的 SQL 语句取较小值：</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> monthid,<span class="keyword">decode</span>(<span class="keyword">sign</span>(sale<span class="number">-6000</span>),<span class="number">-1</span>,sale,<span class="number">6000</span>) <span class="keyword">from</span> <span class="keyword">output</span>;</span><br></pre></td></tr></table></figure></li><li><p>&lt;&gt; 0</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#不等于0的判断</span></span><br><span class="line">if a &lt;&gt; 0 then raise Err_Item</span><br></pre></td></tr></table></figure></li></ol>]]></content>
     
@@ -362,23 +275,6 @@
     <category term="linux" scheme="http://example.com/tags/linux/"/>
     
     <category term="ubuntu" scheme="http://example.com/tags/ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Toots 2020 Dec.14 - Dec.20</title>
-    <link href="http://example.com/2020/12/14/Toots-2020-Dec.14-Dec.20/"/>
-    <id>http://example.com/2020/12/14/Toots-2020-Dec.14-Dec.20/</id>
-    <published>2020-12-14T07:03:51.000Z</published>
-    <updated>2020-12-14T07:05:41.570Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Dec-14"><a href="#Dec-14" class="headerlink" title="Dec.14"></a><strong>Dec.14</strong></h1><hr><p>- </p>]]></content>
-    
-    
-    <summary type="html">To the time to life, rather than to life in time.</summary>
-    
-    
-    
     
   </entry>
   
@@ -421,6 +317,105 @@
     <category term="java" scheme="http://example.com/tags/java/"/>
     
     <category term="数据结构" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>集合的相关知识补充</title>
+    <link href="http://example.com/2020/12/12/%E9%9B%86%E5%90%88%E7%9A%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/"/>
+    <id>http://example.com/2020/12/12/%E9%9B%86%E5%90%88%E7%9A%84%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85/</id>
+    <published>2020-12-11T18:54:34.000Z</published>
+    <updated>2020-12-12T06:35:02.739Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="集合综合对比图"><a href="#集合综合对比图" class="headerlink" title="集合综合对比图"></a>集合综合对比图</h1><p><img src="C:\Users\MSI-NB\AppData\Roaming\Typora\typora-user-images\image-20201212035806458.png" alt="集合对比图"></p><h1 id="Colletion"><a href="#Colletion" class="headerlink" title="Colletion"></a>Colletion</h1><p><img src="C:\Users\MSI-NB\AppData\Roaming\Typora\typora-user-images\image-20201212034055240.png" alt="集合的继承体系"></p><h2 id="java-util-List"><a href="#java-util-List" class="headerlink" title="java.util.List"></a>java.util.List</h2><blockquote><p>有序、有索引、可重复</p></blockquote><h3 id="java-util-ArrayList"><a href="#java-util-ArrayList" class="headerlink" title="java.util.ArrayList"></a>java.util.ArrayList</h3><h4 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h4><p>创建一个空的ArrayList集合,初始容量是<strong>0</strong>,第一次扩容后容量变为<strong>10</strong>,当添加到第11个元素的时候,后面扩容为原有容量的<strong>1.5倍</strong>,因为每次增加内容都需要进行再次扩容,进行元素的复制和删除操作,占用资源较多,所以尽量避免空参构造,尽量创建数组的时候<strong>指定好大小</strong>,避免多次扩容浪费资源.<a href="%E5%8F%82%E7%9C%8B%E8%A7%86%E9%A2%91:29_ArrayList%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90_%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B7%BB%E5%8A%A0%E5%85%83%E7%B4%A0%E6%89%A9%E5%AE%B9%E5%8E%9F%E7%90%86.avi">^1</a></p><hr><h3 id="java-util-LinkedList"><a href="#java-util-LinkedList" class="headerlink" title="java.util.LinkedList"></a>java.util.LinkedList</h3><h4 id="源码分析-1"><a href="#源码分析-1" class="headerlink" title="源码分析"></a>源码分析</h4><p>查找的时候:(使用<strong>简单二分查找法</strong>)<a href="%E5%8F%82%E7%9C%8B%E8%A7%86%E9%A2%91:32_LinkedList%E9%9B%86%E5%90%88%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90_%E5%AD%98%E5%82%A8%E5%85%83%E7%B4%A0%E7%9A%84%E6%96%B9%E6%B3%95add.avi">^2</a></p><ol><li>如果索引值&lt;长度的一半,从 <strong>头节点</strong>开始找</li><li>如果索引值&gt;长度的一半,从 <strong>尾节点</strong>开始找</li></ol><hr><h2 id="java-util-Set"><a href="#java-util-Set" class="headerlink" title="java.util.Set"></a>java.util.Set</h2><blockquote><p>无索引、不可重复</p></blockquote><h3 id="java-util-HashSet"><a href="#java-util-HashSet" class="headerlink" title="java.util.HashSet"></a>java.util.HashSet</h3><blockquote><p>此类实际上<strong>是</strong>一个<strong>HashMap实例</strong></p></blockquote><p>特点:</p><ol><li><p><strong>底层</strong>数据结构: <strong>哈希表</strong>: 数组 + 单向链表/红黑树(单向链表节点数&gt;8)</p></li><li><p><strong>查询</strong>速度嗷嗷<strong>快</strong>,<strong>增删</strong>也<strong>快</strong></p></li><li><p>无索引</p></li><li><p>不可重复</p></li><li><p><strong>无序</strong>: 不保证存入和取出顺序一致</p></li></ol><hr><h3 id="java-util-LinkedHashSet"><a href="#java-util-LinkedHashSet" class="headerlink" title="java.util.LinkedHashSet"></a>java.util.LinkedHashSet</h3><p>特点:</p><ol><li><strong>底层</strong>数据结构: <strong>哈希表</strong>: 数组 + 单向链表 –&gt; 数组 + 双向链表</li><li><strong>查询</strong>速度嗷嗷<strong>快</strong>,<strong>增删</strong>也<strong>快</strong> (没hashset快)</li><li>无索引</li><li>不可重复</li><li><strong>有序</strong>:  存入和取出顺序一致</li></ol><hr><h1 id="Map"><a href="#Map" class="headerlink" title="Map"></a>Map</h1><h3 id="java-util-HashMap-lt-K-V-gt"><a href="#java-util-HashMap-lt-K-V-gt" class="headerlink" title="java.util.HashMap&lt;K,V&gt;"></a>java.util.HashMap&lt;K,V&gt;</h3><blockquote><p>​       <strong>初始容量16,加载因子0.75,扩容为2倍</strong></p></blockquote><p>特点:</p><ol><li>键唯一,值可重复</li><li>键: 具备哈希特性,采用哈希表结构(数组+单向链表)</li><li>哈希表结构(数组+单向链表): <strong>无索引,元素不可重复,无序</strong></li><li>HashMap集合的键所属类<strong>必须覆盖重写hashCode和equals方法</strong></li><li>可以存储null键和null值</li><li>线程不同步,线程不安全,效率高</li></ol><hr><h3 id="java-util-LinkedHashMap-lt-K-V-gt"><a href="#java-util-LinkedHashMap-lt-K-V-gt" class="headerlink" title="java.util.LinkedHashMap&lt;K,V&gt;"></a>java.util.LinkedHashMap&lt;K,V&gt;</h3><p>特点:</p><ol><li>键唯一,值可重复</li><li>键: 具备哈希特性+链表结构,采用<strong>哈希表结构+链表结构</strong>(数组+双向链表),</li><li>哈希表结构+单项链表(数组+双向链表): <strong>无索引,元素不可重复,有序</strong></li><li>集合的键的所属类<strong>必须覆盖重写hashCode和equals方法</strong></li><li>可以存储null键和null值</li><li>线程不同步,线程不安全,效率高</li></ol><hr><h3 id="java-util-HashTable-lt-K-V-gt"><a href="#java-util-HashTable-lt-K-V-gt" class="headerlink" title="java.util.HashTable&lt;K,V&gt;"></a>java.util.HashTable&lt;K,V&gt;</h3><p>特点(hashTable VS hashMap):</p><ol><li>底层数据结构都是 <strong>哈希表结构</strong>(数组+单向链表)</li><li>HashMap允许存储null键和null值,HashTable不允许</li><li>HashMap线程不同步,效率高;HashTable<strong>线程同步</strong>,效率低</li></ol><p>注意:</p><ol><li>Properties集合是Map接口的实现类,Map接口中定义的方法,Properties集合都可以用</li><li>HashTable类是Map接口的实现类,也定义了泛型K :键的类型,V: 值的类型</li><li>但是Properties集合 继承HashTable类时,已经确定键的类型: Object,值的类型: Object,所以创建Properties集合对象时,不能再指定键和值的类型</li><li>Properties集合内部提供了很多参数和返回值都是String的方法</li><li><strong>Properties集合</strong>是唯一一个<strong>和IO流结合</strong>使用的集合</li></ol><hr>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="java" scheme="http://example.com/tags/java/"/>
+    
+    <category term="集合" scheme="http://example.com/tags/%E9%9B%86%E5%90%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Toots 2020 Dec.07 - Dec.13</title>
+    <link href="http://example.com/2020/12/07/Toots-2020-Dec.07-Dec.13/"/>
+    <id>http://example.com/2020/12/07/Toots-2020-Dec.07-Dec.13/</id>
+    <published>2020-12-06T20:36:04.000Z</published>
+    <updated>2020-12-14T07:05:28.919Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Dec-07"><a href="#Dec-07" class="headerlink" title="Dec.07"></a><strong>Dec.07</strong></h1><hr><ul><li>Sometimes your whole life boils down to one insane move.</li></ul><h1 id="Dec-08"><a href="#Dec-08" class="headerlink" title="Dec.08"></a><strong>Dec.08</strong></h1><hr><ul><li>早就是优势</li><li>互联网人要有互联网意识,抓住任何一个可能的点,避免错过热点</li><li>三百六十行行行出状元,任何看起来不起眼的事情往细了往深了做最终都会有所成绩的</li></ul><h1 id="Dec-09"><a href="#Dec-09" class="headerlink" title="Dec.09"></a><strong>Dec.09</strong></h1><hr><ul><li>竹子用了4年的时间， 仅仅长了3cm， 在第5年开始，却以每天30cm的速度疯狂生长， 仅仅用了6周的时间就长到了15米。 其实，在前面的4年， 竹子把根放土壤里延伸了数百平米。都是为了以后能厚积薄发。 所以，不要浮躁，每天做好努力扎根，努力成长，不要轻言放弃，总有一天，你会发现…原来自己是个土豆</li></ul><h1 id="Dec-10"><a href="#Dec-10" class="headerlink" title="Dec.10"></a><strong>Dec.10</strong></h1><hr><ul><li>「做错」的后悔，可能持续几周、几个月；但「没做」的后悔，可能持续许多年，乃至于成为记忆里一个永久的遗憾。<br>为什么呢？很简单：一件事情做完了，那么它所带来的影响就终止了，哪怕结果不够好，你也可以不断去调整它、优化它；但一件事情没有做，并且再也没机会去做，我们就会对它存在「不确定的损失厌恶」，也就是说：我们知道自己「损失」了，但又不确定「损失了什么」，于是，我们会不断地给这种损失加码，不断地把各种可能的后果，往这个篮子里装。这种感受是最难接受的。</li></ul><h1 id="Dec-11"><a href="#Dec-11" class="headerlink" title="Dec.11"></a><strong>Dec.11</strong></h1><hr><ul><li>似乎所有的小矛盾都可以化为激烈的冲突,而我认为所有的冲突都是可以避免的,避免的方式是在矛盾出现的第一时间就去面对它,逃避只能激化矛盾</li></ul><h1 id="Dec-12"><a href="#Dec-12" class="headerlink" title="Dec.12"></a><strong>Dec.12</strong></h1><hr><ul><li>无论你之前走了那条路,都是你自己走出来的,成功了不要太得意,失败了也不要太苛责,关键是要给自己行走的力量.</li></ul><h1 id="Dec-13"><a href="#Dec-13" class="headerlink" title="Dec.13"></a><strong>Dec.13</strong></h1><hr><ul><li>人和人刚认识的时候最美好.</li><li>行动是打败焦虑最有效的方法.</li></ul>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="句子" scheme="http://example.com/tags/%E5%8F%A5%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Toots 2020 Nov.30 - Dec.06</title>
+    <link href="http://example.com/2020/11/30/Toots-2020-Nov.30-Dec.06/"/>
+    <id>http://example.com/2020/11/30/Toots-2020-Nov.30-Dec.06/</id>
+    <published>2020-11-29T17:03:04.000Z</published>
+    <updated>2020-12-06T20:30:08.698Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Nov.30</strong></p><hr><ul><li>想给你颗糖,让你永远不用长大</li></ul><p><strong>Dec.01</strong></p><hr><ul><li>失眠、噩梦、惊醒……你来了,都不存在的</li></ul><p><strong>Dec.02</strong></p><hr><ul><li>不想离开是因为不想一个人去面对那么多未知</li></ul><p><strong>Dec.03</strong></p><hr><ul><li>只要一点勇气，你就可以自己改变生活   &lt;三傻大闹宝莱坞&gt;</li><li>“Find something bigger than yourself ”（找到那些比你自身更宏大的存在）。</li><li>一个人生命中最大的幸运， 莫过于在他的人生中途， 即在他年富力强的时候发现了自己的使命。</li></ul><p><strong>Dec.04</strong></p><hr><ul><li>给你三颗金币,你会回到你的哪一刻,过去、现在还是未来,记住,请想好了再回答.</li><li>爱情是刹那间绚烂的烟火，婚姻是一锅小火慢炖的老鸡汤！</li></ul><p><strong>Dec.05</strong></p><hr><ul><li>作为一个资深的普通人，承认自己的普通与平凡，认清自己，给自己一个准确的定位，也许他们看来是不上进，最起码自己懂</li></ul><p><strong>Dec.06</strong></p><hr><ul><li>人生轨迹的改变,往往是因为你做过的那些看似没有意义的事情</li></ul>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="句子" scheme="http://example.com/tags/%E5%8F%A5%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>程序员如何把控自己的职业</title>
+    <link href="http://example.com/2020/11/28/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%A6%82%E4%BD%95%E6%8A%8A%E6%8E%A7%E8%87%AA%E5%B7%B1%E7%9A%84%E8%81%8C%E4%B8%9A/"/>
+    <id>http://example.com/2020/11/28/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%A6%82%E4%BD%95%E6%8A%8A%E6%8E%A7%E8%87%AA%E5%B7%B1%E7%9A%84%E8%81%8C%E4%B8%9A/</id>
+    <published>2020-11-28T11:05:34.000Z</published>
+    <updated>2020-11-28T11:11:35.426Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="程序员如何把控自己的职业"><a href="#程序员如何把控自己的职业" class="headerlink" title="程序员如何把控自己的职业"></a>程序员如何把控自己的职业</h1><h5 id="转载-2020年08月07日-陈皓"><a href="#转载-2020年08月07日-陈皓" class="headerlink" title="转载: 2020年08月07日 陈皓"></a>转载: <a href="https://coolshell.cn/articles/20977.html" title="17:31">2020年08月07日</a> <a href="https://coolshell.cn/articles/author/haoel" title="View all posts by 陈皓">陈皓</a></h5><img width="196" height="300" src="https://i.loli.net/2020/11/28/hIBGdaOWgXmJFq9.png" style="zoom:80%;" /><p>这篇文章的主要内容主要是我今年3月份在腾讯做的直播，主要是想让一些技术人员对世界有一个大体的认识，并且在这个认识下能够有一个好的方法成就自己。而不是在一脸蒙圈的状态下随波逐流，而日益迷茫和焦虑。直播完后，腾讯方面把我的直播形成文字的形式发了出来，我觉得我可以再做一个精编版。所以，有了这篇文章，希望对大家有帮助。</p><p>对我来说，在我二十多年的工作经历来看，期间经历了很多技术的更新换代，整个技术模式、业务模式也是一直变来变去，我们这群老程序员成长中所经历的技术比今天的程序员玩的还更杂更多。我罗列一下我学过的，而且还被淘汰掉的技术，大家先感受一下。</p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>MIS应用开发：FoxPro，PowerBuilder，Delphi</span><br><span class="line"><span class="bullet">- </span>OA：Lotus Notes，VBScripts</span><br><span class="line"><span class="bullet">- </span>微软：ODBC/ADO，COM/DCOM，MFC/ATL，J++</span><br><span class="line"><span class="bullet">- </span>服务器：AIX，HP-UX，SCO Unix</span><br><span class="line"><span class="bullet">- </span>Web：CGI，ISAPI，SOAP</span><br><span class="line"><span class="bullet">- </span>RPC：CICS，Tuxedo</span><br><span class="line"><span class="bullet">- </span>J2EE：Websphere，Weblogic</span><br><span class="line"><span class="bullet">- </span>DB：Sybase，Informix </span><br><span class="line"></span><br></pre></td></tr></table></figure><p>我想说的是，无论过去还是今天，我们这些前浪和你们后浪所面对的技术的挑战和对技术的焦虑感是相似的，我们那个时候不但玩996，还玩封闭开发（就是一周只能回家一天）。当然，唯一好的东西，就是比起今天的程序员来说，我们那个年代没有像微信、微博、知乎，抖音这些巨大消耗你人生的东西，所以，我们的工作、生活和成长都有很效率，不会被打断、喜欢看书、Google还没有被封……当然，那时代没有StackOverlow和Github这样的东西，所以，能完成的东西或质量都一般。</p><p>当然，这里并不是想做一个比较，只是想让大家了解一下两代程序员间的一些问题各有千秋，大同小异。在整个成长过程中，其实有很多东西是相通的，其本上来说，就是下面的三件事——</p><p><strong>第一</strong>，如果想要把控技术，应对这个世界的一些变化，<strong>需要大致知道这个世界的一些规律和发展趋势，另外还得认识自己</strong>，自己到底适合做什么？在这个趋势和规律下属于自己的发挥领域到底是什么？这是我们每个人都需要了解的。</p><p><strong>第二</strong>，<strong>打牢基础，以不变应万变</strong>，不管世界怎样变化，我都能很快适应它。基础的重要程度对于你能够飞多高是相当有影响的，懂原理的人比不懂原理的人能做出来的事情或是能解决的问题完全是两个层级的。</p><p><strong>第三，提升成长的效率</strong>，因为现在社会的节奏实在太快了，比二十年前快得太多，技术层出不穷，所以我们的成长也要更有效率。效率并不单指的快，效率是怎么样更有效，是有用功除以总功（参看《<a href="https://coolshell.cn/articles/10217.html" title="加班与效率">加班与效率</a>》），怎么学到更有效的东西，或者怎么更有效学习，是我们需要掌握的另一关键。</p><p>下面是我这多年来的一些认识，希望对你有帮助。</p><p>目录</p><ul><li><a href="#%E4%B8%96%E7%95%8C%E5%8F%91%E5%B1%95%E8%B6%8B%E5%8A%BF" title="世界发展趋势">世界发展趋势</a></li><li><a href="#%E4%BA%BA%E6%89%8D%E9%9C%80%E6%B1%82" title="人才需求">人才需求</a></li><li><a href="#Google%E8%AF%84%E5%88%86%E5%8D%A1" title="Google评分卡">Google评分卡</a></li><li><a href="#%E8%AE%A4%E8%AF%86%E8%87%AA%E5%B7%B1" title="认识自己">认识自己</a></li><li><a href="#%E6%89%93%E5%A5%BD%E5%9F%BA%E7%A1%80" title="打好基础">打好基础</a></li><li><a href="#%E5%AD%A6%E4%B9%A0%E6%95%88%E7%8E%87" title="学习效率">学习效率</a></li><li><a href="#%E5%B0%8F%E7%BB%93" title="小结">小结</a></li></ul><h4 id="世界发展趋势"><a href="#世界发展趋势" class="headerlink" title="世界发展趋势"></a>世界发展趋势</h4><p><strong>我个人经历的信息化革命应该分成三个阶段：</strong></p><ul><li><strong>1990年代到2000年，这个时代MB时代</strong>，是雅虎、新浪、搜狐、网易门户网站的时代，这个时代就是ISP/ICP互联网提供商，把一些资讯数字化，然后发布到网络上。</li><li><strong>2000年到2010年，这个时代叫GB时代，或是叫多媒体或UGC时代</strong>，上网开始变得普遍了，每个人手里的数码设备开始变得多了起来，可以上传照片，可以上传视频，甚至可以在网上做社交。</li><li><strong>2010年到2020年，这个时代叫TB时代，这过去的十年是移动互联网时代</strong>，移动互联网只需要手机在线，不需要依靠电脑。因为手机随时在线，所以个人的各种各样的数据始终在被收集，只要用户上网就会产生数据，所以人的行为最终也被数字化了。</li></ul><p>所有的硬件和软件都是跟着需要处理的数据而演进的，我们需要更大的带宽，更大的硬盘，更多的处理器……大到一定时候就只能进入分布式化的技术架构了，再大，数据中心也顶不住了，就会要引入更为分布式的边缘计算了。</p><p>另一方面，从业务上来看，<strong>我们可以看到整个世界就在不断地进行数字化，因为，只要数字化了，就可以进行复制传播和计算，只要可以进行计算了，就可以进行数学建模，就可以自动化，只要可以自动化了就可以规模化，只要可能规模化了，就可以改变整个行业</strong>。人类的近代史的大趋势基本上都是在解决能源和自动化的事，源源不断的能源是让机器不知疲倦的前提条件，用机器代替牲口，代替人类进行工作是规模化的前提条件。</p><p>所以，<strong>技术的演进规律基本是自动化加规模化，从而降低成本，提升效率</strong>。这就是为什么世界变得越来越快，人类都快跟不上节奏的原因，主要是整个社会不断被机器、数据所驱动。</p><h4 id="人才需求"><a href="#人才需求" class="headerlink" title="人才需求"></a>人才需求</h4><p>在这个过程中，需要什么样的人？下面是我的一些认识——</p><ul><li><strong>技工</strong>，在机器和自动化面前，肯定是需要能够操作机器的技术工人了，这类人是有技术的劳动力。在编程的圈子里俗称“码农”，他们并不是真正的工程师，他们只是电脑程序的操作员，所以，<strong>随着技术门槛的下降或是技术形式的变更他可能就会变得越来越不值钱，直到被淘汰掉</strong>。</li><li><strong>特种工</strong>，这种人是必须了解原理和解决难题的一类人，他们是解决比较难的、特定的一些技术问题。<strong>当一种技术被淘汰，他并不容易被淘汰，因为他懂原理，原理就是解决问题的能力，是解决问题的套路和方法</strong>。</li><li><strong>工程师</strong>，不但是使用技术，还可以把活儿做好，他们认为代码更多的时间是在维护，这些人使用各种各样的手段和各种技术，精益求精地持续不断地提高代码的易读性、扩展性、可维护性和重用性，这个过程似乎永无止境。对于这些有“洁癖”，有“工匠精神”，有“修养”的技术人员，我们称他们为工程师。<strong>这种人做事又稳又快，而且可以做出很多称手的工具和方法论</strong>。</li><li>再往上是<strong>设计师和架构人员</strong>，这些人主要是开发一些工具，框架，模式，提升软件开发和维护效率，同时也提升用户体验，和提升稳定性、性能、代码重用等，总的来说就是为了降本增效。这类人的工作降低了技术得到门槛，他们把技术门槛降低了以后，就可以把这个技术普及开来，就可以由广大劳工、技工、特殊工人使用了。</li><li>还有一类人是<strong>经理</strong>，经理主要是组织团队、完成项目、创造利润。这类人中，即有身先士卒的leader，也有高高在上的boss，但无论怎么样，这些人只不过是为了让一个公司或是一个团队更好组织在一起的“粘合剂”，这类人只有在大公司中才会变成更有价值。</li></ul><p>这就是我总结的世界需要哪些人才，我们了解这些东西以后大概就明白我们现在所处的位置有什么样的问题，我们应该去什么样的地方。</p><h4 id="Google评分卡"><a href="#Google评分卡" class="headerlink" title="Google评分卡"></a>Google评分卡</h4><p>接下来，我们再来看看Google的SRE的自我评分卡：</p><blockquote><p>0 – 对于相关的技术领域还不熟悉<br>1 – 可以读懂这个领域的基础知识<br>2 – 可以实现一些小的改动，清楚基本的原理，并能够在简单的指导下自己找到更多的细节。</p><p>3 – 基本精通这个技术领域，完全不需要别人的帮助<br>4 – 对这个技术领域非常的熟悉和舒适，可以应对和完成所有的日常工作。</p><ul><li>对于软件领域 – 有能力开发中等规模的程序，能够熟练和掌握并使用所有的语言特性，而不是需要翻书，并且能够找到所有的冷知识。</li><li>对于系统领域 – 掌握网络和系统管理的很多基础知识，并能够掌握一些内核知识以运维一个小型的网络系统，包括恢复、调试和能解决一些不常见的故障。</li></ul><p>5 – 对于该技术领域有非常底层的了解和深入的技能。</p><p>6 – 能够从零开发大规模的程序和系统，掌握底层和内在原理，能够设计和部署大规模的分布式系统架构<br>7 – 理解并能利用高级技术，以及相关的内在原理，并可以从根本上自动化大量的系统管理和运维工作。<br>8 – 对于一些边角和晦涩的技术、协议和系统工作原理有很深入的理解和经验。能够设计，部署并负责非常关键以及规模很大的基础设施，并能够构建相应的自动化设施</p><p>9 – 能够在该技术领域出一本经典的书。并和标准委员会的人一起工作制定相关的技术标准和方法。<br>10 – 在该领域写过一本书，被业内尊为专家，并是该技术的发明人。</p></blockquote><p>SRE需要自评如下这些技术或技能。</p><blockquote><p>– TCP/IP Networking (OSI stack, DNS etc)<br>– Unix/Linux internals<br>– Unix/Linux Systems administration<br>– Algorithms and Data Structures<br>– C/C++<br>– Python<br>– Java<br>– Perl<br>– Go<br>– Shell Scripting (sh, Bash, ksh, csh)<br>– SQL and/or Database Admin<br>– Scripting language of your choice (not already mentioned) _____________<br>– People Management<br>– Project Management</p></blockquote><p>这个评分卡是面试Google前需要候选人对自己的各种技术进行自评，也算是一种技术人员的等级的度量尺，其把技术的能分成11个等级，我用颜色把其它成四大层级，希望这个评份卡能够给你一个能力提升的参考标准。</p><h4 id="认识自己"><a href="#认识自己" class="headerlink" title="认识自己"></a>认识自己</h4><p>认识了世界是怎么发展的，也知道技术人员的种类和层级，那么还要了解一下自己，因为如果不了解自己，那么你也无法找到自己的路和适合自己的地方。</p><p>我觉得，一个人要认识自己就需要认识自己的特长、兴趣、热情、擅长等，下面是一个认识自己的标准方法：</p><ul><li><strong>特长</strong>。首先你要找得到自己特长。你要认识自己的特长，找到自己的天赋，找到你在DNA里比别人强的东西，就拿你的DNA跟别人竞争就好了。所以你要找到自己可以干成的事，找到别人找你请教的事，你身边人找你请教就是说明你有特长。这是找到自己特长非常非常重要，扬长避短。</li><li><strong>兴趣</strong>。如果你没有找到自己特长，就找自己有兴趣有热情的东西。什么叫兴趣？兴趣是再难再累都不会放弃的事。如果你遇到困难就会放弃不叫兴趣，那叫叶公好龙。不怕困难，痴迷其中，就算你没有特长，有了这种特质，你也是头部的人才。</li><li><strong>方法</strong>。如果你没有特长，没有兴趣和热情就要学方法。这种方法就是要有时间观念，要会做计划，要懂统筹、规划对于做过的事情，犯过的错误多总结，举一反三，喜欢自己找答案，自己探究因果关系，这是一些方法，自己总结一些套路。</li><li><strong>勤奋。</strong>如果你没有特长，没有兴趣，也没有方法，你还能做的事就是勤奋，勤奋注定会让你成为一个比较劳累的人，也是很有可能被淘汰的人随着你的年纪越来越大，你的勤奋也会越来越不值钱。因为年轻人会比你更勤奋，比你更勤奋、比你斗志更强，比你能力更强，比你要钱更少的人会出现。勤奋最不值钱，但是只要你勤奋至少能够自食其力。</li></ul><p>以上就是为了应对未来技术变化，作为个人必须要从特长、兴趣、方法一层一层筛选挖掘，<strong>如果没有这些你就要努力和勤奋。就只能接受“福报”了</strong>。</p><p>从我个人而言，我不算是特别聪明的人，但自认为对技术还是比较感兴趣的，难的我不怕。有很多比较难啃的技术，聪明点的人啃一个月就懂了，我不行，我可能啃半年。但是没有关系，知识都是死的，只要不怕困难总有一天会懂的。最可怕是畏难，为自己找借口，这样就不太好了。</p><h4 id="打好基础"><a href="#打好基础" class="headerlink" title="打好基础"></a>打好基础</h4><p>最前面提到我学的各式各样的被淘汰的技术，会让你感觉很迷茫，或是迷失。但前面也提到了“谷歌评分卡”，在这个评分卡中，我们看到了许多基础原理方面的内容，其实要应对未来的变化，很重要的一点就是无招胜有招，以不变应万变。</p><p><strong>变化都是表面的东西，内在的东西其实并没有太多的变化</strong>。理论层面上变得不多，反而形式上的东西今天一个花样，明天一个花样，所以如果要去应对这种变化，就一定要打牢自己的基础，提升内功修养。比如像编程的一些方式和套路，修饰模式原理本质，解耦，提升代码的重用度等。提升代码重用度必须解耦，要跟现实解耦，提升抽象，这些都是一些技术基础。无论用什么语言，都是这么做的。</p><p>打牢基础就可以突破瓶颈，不打牢基础没有办法突破瓶颈。<strong>在技术世界不要觉得量变会造成质变，这是不可能的</strong>。技术这个东西就像搞建筑砌砖头，砌砖头砌的再多也不可能让你能成为一个架构师的，因为你<strong>不懂原理，不懂科学方法，你就不可能成长上去的</strong>，就像学数学一样，当你掌握了微积分这种大杀器后，你解题的能力是无所披靡，而微积分这种方式绝对不是你能“量变”出来的。</p><p>所以你必须学习基础的理论知识，如果不学这些基础理论知识，还要学习解题思路和方法，如果你只学在表面，那么当这个技术的形式有变化，就会发现以前学的都没用了，要重头学一遍。<strong>掌握技术基础可以让自己找到答案和知识，基础是抽象和归纳，很容易形成进一步的推论</strong>。我们学的很多技术实现都逃不脱基础原理，不管是Java，还是其他语言，只要用TCP用的都是相同的原理，逃不出范围，<strong>只要抓住原理，举一反三，时间一长了，甚至还可以自己推导答案</strong>。对于技术的基础，我会把其它成四类：</p><ul><li><strong>程序语言</strong>：语言的原理，类库的实现，编程技术（并发、异步等），编程范式，设计模式……</li><li><strong>系统原理</strong>：计算机系统，操作系统，网络协议，数据库原理……</li><li><strong>中间件</strong>：消息队列，缓存系统，网关代理，调度系统 ……</li><li><strong>理论知识</strong>：算法和数据结构，数据库范式，网络七屋模型，分布式系统……</li></ul><p><strong>这些知识其实就是一个计算机科学专业的学生他所要学习的原理</strong>，但可惜的是，我们的一些学校教得也很糟糕，不但老师能力不足，而且放着世界上最优秀的教课书不用了，一定要自己写一本。讲也讲不全，还有各种错误，哎……总之，如果你学习用用到的教材不行，那么可以肯定的是你的学习效率一定是很糟糕的。这就是为什么我们大学上完了，还是跟个傻瓜一样，还要在工作中再重新自学。</p><p>不过，就算自学，这些基础技术大概需要四五年的时间堆叠。<strong>我工作二十年了，这二十年来基本还是这些原理没变，无论形式怎么变，但是核心永远还是这些，理论创新很难，这是以不变应万变</strong>。</p><h4 id="学习效率"><a href="#学习效率" class="headerlink" title="学习效率"></a>学习效率</h4><img width="384" height="361" src="https://i.loli.net/2020/11/28/DRxabvSh4WQFigY.jpg" style="zoom:80%;" /><p>谈到学习效率，就需要拿出这张学习金字塔的图来了。从图可以看到学习方法分布两层，一种是被动学习，也是浅度学习，听讲，阅读，视听，演示都是在被动学习，而与人讨论，自己动手实践，教授给别人是主动学习。主动学习我们称之为深度学习，如果你不能深度学习，你就不能真正学到东西。这也是你会经常有“学那么多干什么，不用就忘了”，这就是浅度学习的症状了。</p><p>下面，我给出一些我自己觉得不错的学习经验：</p><p><strong>1、挑选一手知识和信息源。</strong>对于学习方法：第一我们一定要到知识源去挑选知识，知识信息源非常关键，二手信息丢失太大了，谭浩强写的书就丢失太多信息了。<strong>目前计算机一手知识基本都是国外的</strong>，所以<strong>英文非常重要</strong>。我鼓励大家一定读第一手的资料。如果你英语有问题，至少要看翻译过来，最好是原汁原味翻译的，不要我理解了给你讲那种，那种也是被别人嚼一遍再讲给你你没有体会，是别人带着你，别人的体会会影响你，也许你的体会会比他更好，因为是你自己总结出来的东西，所以知识源很重要。</p><p><strong>2、注意原理和基础</strong> <strong>第二要注重基础原理</strong>。虽然可以忘记这个技术，但是原理记在心里，我可以徒手实现出来，而且通过原理可以更快学习其他类似的技术。所以原理很重要！当你学会C、C++要学Java和GO都很快。</p><p><strong>3、使用知识图谱</strong> <strong>一定要学会使用知识图</strong>，把知识结构化。从一个技术关键点开始不断地关联和细化下去，比如：关于TCP协议，首先第一个要记住状态图，怎么建立连接，怎么断连接，状态怎么变迁。TCP没有连接，是靠状态维护连接的。其次，要了解TCP怎么保证可靠性，就是丢包以后怎么重传，重传有哪些技术点。然后，重传会让你联想到拥塞控制，拥塞控制到滑动窗口……。这基本就是TCP的所有东西了，找到关键点，然后顺着这个脉络一点点往下想，通过知识图关联就可以进行顺藤摸瓜。我们不需要记所有知识，那些<strong>手册的知识不需要记，你知道在哪里能找到就可以了</strong>。你脑子里面要有地图，学一个东西就跟在城市生活一样，闭上眼睛就知道地图，A点到B点怎么去大概方向要知道。我在北京我去广州，广州在南边，我大概坐飞机还是火车要心里有数。。</p><p><strong>4、学会举一反三</strong>。就是用不同方法学一个东西，比如说学TCP协议，看书是一种方法，编程是另外一种方法，还有用做Debug去看的，用不同方法学一个东西会让你更加熟悉，你学一个知识的同时把周边也学了。比如说学前端能不能把HTTP学一下，比如说长连接、短连接，包括hp1、hp2有一些不一样的东西。</p><p><strong>5、总结和归纳。</strong>只有学会总结和归纳，才能形成自己的思维框架、自己的套路、自己的方法论，以后学这个东西应该怎么学。就像学一门新的语言，不管GO语言，还是Rust语言，第一件事情就是了解内存是怎么管理的，数据类型什么样，第二是泛型怎么搞，第三是并发怎么弄。还有一些抽象怎么弄，比如说怎么解耦，怎么实现多态？套路这种东西只有学的多了以后才能形成套路，如果你只学会一门语言不会有套路，你要每年学门语言，不用学多精，你思考这个语言有什么不一样，为什么这个这种有玩法，那个有那种玩法，这些东西思考多了套路方法论就出来了。比如说Windows和Linux有什么不同，Linux和Unix又有什么不同？只有总结自己的框架、套路和方法，这些才永远不会被淘汰。</p><p><strong>6、实践和坚持。</strong>剩下就是多做多练，多坚持，只有实践才会有经验，只有锻炼了才能够把自己的脂肪变没，所以，<strong>要把知识变成技能必须练</strong>，就像小学生学会加减乘除，还是要演练，必须多做题，题目做得多了，自然掌握得好。要挑选好的知识源，注重原理技术，有一些原理的基础的书太枯燥，但是我告诉你学习这些基础太值得投入时间，搬砖赚几十元不值得，因为赚的是辛苦钱，老了就赚不了，必须要赚更有能力的钱，这是学习投资。</p><h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>好了，该到这篇文章收尾的时候了，小结一下，如果你想更好的把握时代，提升自己，你需要知道这个时代的趋势是什么，需要什么样的人，这些人需要什么样的能力，这些能力是怎么获得的，投入到基础知识的学习就像“基建”一样，如果基础不好，不能长高，学习能力也是需要适应这个快速时代的重要的基础能力，没有好的学习能力，很快就会掉队被淘汰。</p><p>这些东西，是我从业二十年来的总结和体会，希望对你有用。</p><p>（全文完）</p><p><img src="https://i.loli.net/2020/11/28/vnUIWra5ktu3ZmE.jpg" style="zoom:67%;" /> <img src="https://i.loli.net/2020/11/28/UMAHDs2Z4RzOgT1.jpg" style="zoom:67%;" /><br>关注CoolShell微信公众账号和微信小程序</p><p><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="转载" scheme="http://example.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="成长" scheme="http://example.com/tags/%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Toots 2020 Nov.23 - Nov.29</title>
+    <link href="http://example.com/2020/11/23/Toots-2020-Nov.23-Nov.29/"/>
+    <id>http://example.com/2020/11/23/Toots-2020-Nov.23-Nov.29/</id>
+    <published>2020-11-23T15:03:04.000Z</published>
+    <updated>2020-11-29T14:26:04.231Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Nov.23</strong></p><hr><ul><li><p>遇到问题为什么要哭,哭有什么用</p><p>可是,哭本来就不是用来解决问题的~    </p><p>#电报频道</p></li><li><p>有时父母和小孩的某些情感连接真的很神奇，即便不在一起父母好像都能感知到你的喜怒哀乐，在你状态糟糕的时候就能收到妈妈问的一句“最近还好吗？”</p><p>我不是一个经常会主动联系家人的人，倒也不是不记挂，只是好像骨子里有些疏离，即便是家人，我也很少去主动拉进距离。</p><p>妈妈今天打来电话，问我在做些什么，最近课多不多，吃得如何。我一一回答，然后妈妈问我“你最近还好吗？”当下好像全身的血液滞住了，我说“嗯，挺好的。”不过其实一直也不大好，但妈妈问我这一句的时候我想她一定有感觉到些什么吧，这种感觉很奇妙，好像血浓于水的同时情感也彼此联通一般。</p><p>想起今年暑假的时候，我像一摊烂泥，一团乱麻，过的特别糟糕。那段时间不知道为什么，妈妈给我通电话也很多，总是让我多出去走走，多联系朋友，给自己买点衣服鞋子。有一次妈妈在电话里跟我说，你有什么都可以跟爸爸妈妈说的，我知道你不是一个外向的爱说的小孩，但也不要压抑自己。听到的一瞬间我就开始止不住地掉眼泪，我把手机拿远，拿着纸捂住鼻子嘴巴不要哭出声音，怕自己说话会被妈妈发现在哭，就只是闷闷的回答“嗯。”</p><p>“你想吃什么吗？”妈妈轻轻地问我，“想吃我就给你买。”我说没什么想吃的呢，妈妈说，那你自己在学校好好吃饭，注意身体啊。</p><p>“你看你，我不给你打电话你就不会打给我。”妈妈抱怨道。我沉默着，“以后没事也给我打电话聊聊天啊。”</p><p>我会尽量的妈妈，只是，我害怕自己会绷不住那根弦，我不想让你担心我呀，所以什么都不说就会让你觉得我过得挺好的，我也希望你们觉得我挺好的。</p><p>谢谢你啊妈妈。   </p><p>#陌生人日记</p></li><li><p>心里没有了波涛汹涌,只是觉得心理突然空了,我不确定自己能用多少时间把你彻底忘了,也不敢保证我就能真的把你忘了,我只能像现在这样,不吵不闹,不悲不喜,安安静静的与你,再无任何交集.</p><p>#电报</p></li><li><p>最开始只是一句简单的争吵</p><p>他默不作声，希望与人为好</p><p>他们的眼神从轻蔑到好奇，再到兴致盎然</p><p>可怕，好像找到玩物的猎豹</p><p>他向身边的人倾诉，得到的安慰如此潦草</p><p>“为什么只有你被挑上了，别人都没事？！”</p><p>“忍一忍，等毕业就好”</p><p>老师说：孩子还小，难免小打小闹</p><p>父亲别过脸：别惹事，我们没钱，处理不了</p><p>母亲哭着说：忍一忍，学习最重要</p><p>算了，算了</p><p>不过是起了个不太好听的外号</p><p>不过是小小的造了个谣</p><p>不过是新年还没到，提前放了个鞭炮</p><p>他默不作声，怀疑着自己的感觉</p><p>剪头发，抽脸不过是同学开个玩笑，</p><p>当众脱衣只是同学帮助检查身体</p><p>被狠踹几脚只是他们没有把握好分寸</p><p>要怪只怪自己心态不好</p><p>可是怎么办呢</p><p>脸上的红肿经久不消</p><p>厕所聆听了他的每一次哀嚎</p><p>班长视若无睹知情不报</p><p>警惕着身后，生怕一个飞踹他就被踢倒</p><p>直到他拿起了手里的弹簧刀</p><p>起码让暴徒知道</p><p>他们的作为</p><p>不应该只是口头警告</p><p>父母不懂，那么乖的一个孩子怎么就变成了这样</p><p>老师将他赶出了学校：孩子思想太危险，不好管教</p><p>20年后，看着越来越多的校园霸凌报道</p><p>听着身边人的惋惜</p><p>庆幸自己的理智，不然只能出现在法制频道</p><p>父母惋惜着他的过往：当时再忍忍，拿到毕业证多好</p><p>他笑了笑</p><p>午夜梦回，大汗淋漓，噩梦做够一万次，也就习惯了？</p><p>作者：朱一旦的枯燥生活<br>来源：知乎<br>话题：校园霸凌</p></li></ul><p><strong>Nov.24</strong></p><hr><ul><li>如果他真的那么爱你,他会把你介绍进他的生活圈子里,不会连公开的勇气都没有,爱情本应该是一件公开 温暖的事情,何必委屈自己附和一段不见光的感情,你真正需要的是一个,灯光再亮也会抱住你的人</li><li>你低估了我想陪你走下去的决心,而我高估了我在你心理的位置,正如你是我患得患失的梦,而我是你可有可无的人,毕竟这穿越山河的剑,刺的都是用情至极的人</li><li>仗义每多屠狗辈,负心多是读书人</li><li>书籍的全部意义在于使人善用自己的孤独</li></ul><p><strong>Nov.25</strong></p><hr><ul><li>红雨随心翻作浪,青山着意化为桥</li></ul><p><strong>Nov.26</strong></p><hr><ul><li><p>好多人不开心了遇到难过的事情了会到李文亮医生的微博下面留言，顺带看看别人的留言互相鼓励一下，生活中最感动的莫过于这种来自陌生人的温暖和善意了吧</p></li><li><p>人的棱角慢慢消失,绝多数不是被眼前的丑恶给击碎的,而是被身后的愚昧和嘲弄给削平的.</p><p>若这个世界是一个大泥潭,有的人在里面打滚,脏的不亦乐乎,有的人身处最中央,致力于把身边的肮脏抹掉,却被视作疯子,而我只想拼尽全力爬出去,在泥潭的边缘冷眼旁观,我对这些污浊无能为力,只求自己能干净一点.</p><p>罗曼罗兰说过,世上只有一种英雄主义,即是认清生活本质后依然热爱生活.</p><p>调子起的太高,我自认为做不到,所以对于我们这些无名之辈,能够认清生活本质和生活和平共处,已是我们能做到最大的努力.</p><p>上帝的归上帝,撒旦的归撒旦,大概就是这</p></li></ul><p><strong>Nov.27</strong></p><hr><ul><li><img src="https://i.loli.net/2020/11/28/KhSTfFbLPuD8CA7.jpg" alt="daoli" style="zoom:67%;" /></li></ul><p><strong>Nov.28</strong></p><hr><ul><li>凡所有相,皆为虚妄.</li><li>不要虚掷你的黄金时代，不要去倾听枯燥乏味的东西，不要设法挽留无望的失败，不要把你的生命献给无知、平庸与低俗。</li></ul><p><strong>Nov.29</strong></p><hr><ul><li><p>好人之所以是好人，是因为他不做好事就活不下去；坏人之所以是坏人，是因为他不做坏事就活不下去。所以好人不需要夸奖，坏人不需要惩罚。好人做好事，是因为他心中有一种感情，做了好事才能去满足这种感情，如果不做好事，他会很难过。坏人同样的道理。所以没必要去分别对待，就像每个人的性格不同，大家都按照自己的个性去做相应的事。那么还何必去分对错呢？</p><p><strong>善只是善，不要讲结果，更不要根据当时的结果分大善和小善。你认为这件事是善，那就去做，即使别人不理解，那也无妨。毕竟对每个人来讲，善都是自己的私事。</strong></p><p>所以，关键是：<strong>你想不想善。想善并不意味着你是个好人，不想善也不并意味着你是个坏人。只是选择不同、活法不同而已。</strong></p><p><a href="http://www.zreading.cn/archives/7977.html">&lt;&lt;关于善，关键是：你想不想&gt;&gt;</a></p></li></ul>]]></content>
+    
+    
+    <summary type="html">To the time to life, rather than to life in time.</summary>
+    
+    
+    
+    
+    <category term="句子" scheme="http://example.com/tags/%E5%8F%A5%E5%AD%90/"/>
     
   </entry>
   

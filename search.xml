@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title></title>
-      <link href="2021/03/05/Terminator%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%95%B4%E7%90%86/"/>
-      <url>2021/03/05/Terminator%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%95%B4%E7%90%86/</url>
-      
-        <content type="html"><![CDATA[<ul><li>打开命令窗口 ctrl+alt+t</li><li>水平新建一个窗口 ctrl+shift+o</li><li>垂直新建一个窗口 </li><li>在不同窗口之间切换 alt+方向键</li><li>当前窗口最大化或恢复正常 ctrl+shift+x</li><li>粘贴  鼠标右键或者Ctrl+shift+v</li></ul>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>JucNote</title>
       <link href="2021/03/05/JucNote/"/>
       <url>2021/03/05/JucNote/</url>
@@ -55,7 +42,7 @@
     
     
     <entry>
-      <title>设计模式-note</title>
+      <title>设计模式-note-needtodo</title>
       <link href="2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_note/"/>
       <url>2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_note/</url>
       
@@ -104,51 +91,6 @@
         <content type="html"><![CDATA[<p>入门说明</p><blockquote><p>优缺点：不同语言和平台之间的交互，可以传输对象；但是因为xml文件本身包含了标签，所以传输中会出现许多这种无用的信息。</p></blockquote><p>开发规范</p><ol><li><p>jax-ws</p></li><li><p>jax-rs</p><p>基于restful的开发规范</p></li></ol><p>通讯协议：SOAP（基于jax-ws）</p><p>wsdl说明书</p><p>基于xml文件，里面说明了基于哪些方法，方法的参数和返回参数等信息</p><p>UDDI:</p><p>用来将webservice服务发布到互联网的一种服务</p><p>ApacherCXF框架</p><p>它是webservice的实现框架，集成了许多插件并与springboot进行集成</p><p>Demo实现</p><ol><li><p>创建服务端：</p><p>创建service+webservice注解，创建测试方法，里面用服务工厂先设置服务地址，然后设置服务类，再发布服务，然后进行测试，在网页打开上面设置的地址查看是否显示bingding相关信息，然后在网址后面加？wsdl查看wsdl说明书，</p><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">其中operat就是方法</span><br><span class="line"><span class="deletion">-input 输入参数</span></span><br><span class="line"><span class="deletion">-output 返回值</span></span><br></pre></td></tr></table></figure></li><li><p>客户端远程访问服务端（必须先知道访问的接口地址）：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[Java代理： 1. 静态代理；  2.动态代理（jdk接口代理、cglib子类代理）]    <span class="variable">$CGLIB123</span></span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//  服务接口访问地址：http://localhost:8000/ws/hello</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建cxf代理工厂</span></span><br><span class="line">JaxWsProxyFactoryBean factory = <span class="keyword">new</span> JaxWsProxyFactoryBean();</span><br><span class="line"></span><br><span class="line"><span class="comment">//  设置远程访问服务端地址</span></span><br><span class="line">factory.setAddress(<span class="string">&quot;http://localhost:8000/ws/hello&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//  设置接口类型</span></span><br><span class="line">factory.setServiceClass(HelloService.class);</span><br><span class="line"></span><br><span class="line"><span class="comment">//  对接口生成代理对象</span></span><br><span class="line">HelloService helloService = factory.create(HelloService.class);</span><br><span class="line"></span><br><span class="line"><span class="comment">//  代理对象对象  class com.sun.proxy.$Proxy34       [Java代理： 1. 静态代理；  2.动态代理（jdk接口代理、cglib子类代理）]    $CGLIB123</span></span><br><span class="line">System.out.println(helloService.getClass());</span><br><span class="line"></span><br><span class="line"><span class="comment">// 远程访问服务端方法</span></span><br><span class="line">String content = helloService.sayHello(<span class="string">&quot;Jet&quot;</span>);</span><br><span class="line">System.out.println(content);</span><br></pre></td></tr></table></figure></li><li></li></ol>]]></content>
       
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="2021/02/23/rocketmq/"/>
-      <url>2021/02/23/rocketmq/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://i.loli.net/2021/02/18/PhvMoLxsXCKaUdb.png" alt="image-20210218203324712"></p><p>参考<a href="https://blog.csdn.net/wu4566285/article/details/105906677">地址</a>:我将里面所有的安装地址都放在usr/local目录下</p><p>启动mq</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/rocketmq/rocketmq-4.7.0/bin</span><br><span class="line"></span><br><span class="line"><span class="comment">## 启动nameserver</span></span><br><span class="line">nohup sh mqnamesrv &gt;/usr/<span class="built_in">local</span>/rocketmq/rocketmq-4.7.0/logs/mqnamesrv.log 2&gt;&amp;1 &amp;</span><br><span class="line"><span class="comment">## 启动broker</span></span><br><span class="line">nohup sh mqbroker -n localhost:9876 &gt;//usr/<span class="built_in">local</span>/rocketmq/rocketmq-4.7.0/logs/broker.log 2&gt;&amp;1 &amp;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">##查看是否启动成功</span></span><br><span class="line">jps</span><br></pre></td></tr></table></figure><p>停止mq</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sh mqshutdown broker</span><br><span class="line">sh mqshutdown namesrv</span><br></pre></td></tr></table></figure><p>安装可视化界面</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="2021/02/23/rabbitmq-%E5%B7%B2%E5%BC%83%E5%9D%91%E6%9A%82%E6%97%B6%E7%94%A8%E4%B8%8D%E4%B8%8A/"/>
-      <url>2021/02/23/rabbitmq-%E5%B7%B2%E5%BC%83%E5%9D%91%E6%9A%82%E6%97%B6%E7%94%A8%E4%B8%8D%E4%B8%8A/</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>参考：<a href="https://my.oschina.net/u/2364788/blog/2875902">ubuntu上rabbitmq的安装和启动</a></p><p><a href="https://www.cnblogs.com/williamjie/p/9481774.html">简介入门</a></p><p>启动web管理端：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rabbitmq-plugins <span class="built_in">enable</span> rabbitmq_management</span><br></pre></td></tr></table></figure><p>本地地址：<a href="http://localhost:15672/#/">http://localhost:15672/#/</a></p><p>用户名、密码：admin</p></blockquote><p>消息队列的使用过程大概如下：</p><p>（1）客户端连接到消息队列服务器，打开一个channel。<br>（2）客户端声明一个exchange，并设置相关属性。<br>（3）客户端声明一个queue，并设置相关属性。<br>（4）客户端使用binding key，在exchange和queue之间建立好绑定关系。<br>（5）客户端投递消息到exchange。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Toots_2021_Feb_18</title>
-      <link href="2021/02/18/Toots-2021-Feb-18/"/>
-      <url>2021/02/18/Toots-2021-Feb-18/</url>
-      
-        <content type="html"><![CDATA[<ul><li>Feb-18</li></ul><hr><ul><li><p>假期结束，硬生生一分一分拖到快迟到才起来，恍恍惚惚到了车站恍恍惚惚等车，看着150的到来莫名其妙上了183，车行一半发现路线错了，将错就错打车竟然提前到了公司。</p></li><li></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> daily </tag>
-            
-        </tags>
       
     </entry>
     
@@ -248,9 +190,9 @@
     
     
     <entry>
-      <title>ssh学习记录</title>
-      <link href="2021/01/10/ssh%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-      <url>2021/01/10/ssh%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
+      <title>SSH_Note-todo</title>
+      <link href="2021/01/10/SSH_Note/"/>
+      <url>2021/01/10/SSH_Note/</url>
       
         <content type="html"><![CDATA[<ol><li><p>安装ssh</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#在bash中输入</span></span><br><span class="line">sudo apt install openssh-client</span><br><span class="line"><span class="comment">#测试是否安装成功,显示版本号</span></span><br><span class="line">ssh -V</span><br></pre></td></tr></table></figure></li><li><p>登录服务器</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#以我的云主机为例,其中我的用户名:dc2-user 我的ip地址:117.51.155.221,连接的时候请改成自己的,中间用@进行分隔</span></span><br><span class="line">ssh dc2-user@117.51.155.221</span><br><span class="line"><span class="comment">#输入完之后会提示第一次连接,先输入yes 回车,然后输入用户密码,即可登录成功,发现用户已经变化了</span></span><br></pre></td></tr></table></figure><img src="https://i.loli.net/2021/01/10/jWcB7OZQiKHlkGw.png" alt="image-20210110180336172" style="zoom:135%;" /><p><img src="https://i.loli.net/2021/01/10/tGaNiOYjIfkpKsV.png" alt="image-20210110180406136"></p></li><li><p>ssh的配置文件</p><ol><li>全局配置文件: <code>/etc/ssh/ssh_config</code></li><li>个人配置文件: <code>~/.ssh/config</code></li></ol></li><li></li></ol>]]></content>
       
@@ -261,7 +203,7 @@
     
     
     <entry>
-      <title>数据库学习</title>
+      <title>数据库学习--进行中</title>
       <link href="2021/01/10/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/"/>
       <url>2021/01/10/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</url>
       
@@ -297,19 +239,6 @@
             <tag> ubuntu </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Toots 2020 Dec.14 - Dec.20</title>
-      <link href="2020/12/14/Toots-2020-Dec.14-Dec.20/"/>
-      <url>2020/12/14/Toots-2020-Dec.14-Dec.20/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Dec-14"><a href="#Dec-14" class="headerlink" title="Dec.14"></a><strong>Dec.14</strong></h1><hr><p>- </p>]]></content>
-      
-      
       
     </entry>
     
